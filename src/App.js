@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Home";
+import Home from "./Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <div className="antialiased dark:text-slate-400 bg-white dark:bg-slate-900 eading-relaxed text-slate-400 selection:bg-teal-300 selection:text-teal-900">
+      <div className="antialiased min-h-screen w-screen bg-gradient-to-bl from-blue-950 to-black dark:text-slate-400 bg-white dark:bg-slate-900 eading-relaxed text-slate-400 selection:bg-teal-300 selection:text-teal-900">
         <Home />
       </div>
     </div>
