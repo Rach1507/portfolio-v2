@@ -1,10 +1,10 @@
 const LinkFooter = () => {
   return (
-    <div className="col-span-1">
+    <div className="">
       <div className="fixed left-14 flex w-6 flex-col justify-end items-center gap-5 bottom-0">
         <a
           href="https://github.com/Rach1507"
-          className="text-slate-400 w-6 h-6"
+          className="text-slate-400 w-6 h-6 hover:text-slate-50"
           aria-label="GitHub"
           target="_blank"
           rel="noreferrer"
@@ -26,10 +26,10 @@ const LinkFooter = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
-          aria-label="Linkedin"
+          href="https://codepen.io/Rach715"
+          aria-label="CodePen"
           target="_blank"
-          className="text-slate-400 w-6 h-6"
+          className="text-slate-400 w-7 h-7  hover:text-slate-50"
           rel="noreferrer"
         >
           <svg
@@ -41,41 +41,21 @@ const LinkFooter = () => {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="feather feather-linkedin"
+            class="feather feather-codepen"
           >
-            <title>LinkedIn</title>
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-            <rect x="2" y="9" width="4" height="12"></rect>
-            <circle cx="4" cy="4" r="2"></circle>
+            <title>CodePen</title>
+            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+            <line x1="12" y1="22" x2="12" y2="15.5"></line>
+            <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+            <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
+            <line x1="12" y1="2" x2="12" y2="8.5"></line>
           </svg>
         </a>
         <a
-          // href="mail"
-          aria-label="Gmail"
+          href="https://leetcode.com/rach_7815/"
+          aria-label="Leetcode"
           target="_blank"
-          className="text-slate-400 w-7 h-7"
-          rel="noreferrer"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            id="Gmail"
-          >
-            <path
-              stroke="rgb(148 163 184)"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6.111 18.994H4.788C4.192 19.047 3 18.753 3 17.15V7.741c0-2.225 2.3-1.982 3.46-1.116l5.528 4.032 5.644-4.169C18.98 5.418 21 6.169 21 8.448v8.314c0 .888-.237 2.232-2.02 2.232h-2.091v-6.788l-4.9 3.645-4.878-3.645v4.513"
-              class="colorStroke000000 svgStroke"
-            ></path>
-          </svg>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
-          aria-label="Linkedin"
-          target="_blank"
-          className="text-slate-400 w-6 h-6"
+          className="text-slate-400 w-6 h-6 hover:text-slate-50 text-shadow"
           rel="noreferrer"
         >
           <svg
@@ -97,7 +77,14 @@ const LinkFooter = () => {
           </svg>
         </a>
 
-        {/* <svg
+        <a
+          href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
+          aria-label="Linkedin"
+          target="_blank"
+          className="text-slate-400 w-6 h-6  hover:text-slate-50"
+          rel="noreferrer"
+        >
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             role="img"
             viewBox="0 0 24 24"
@@ -106,15 +93,15 @@ const LinkFooter = () => {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="feather feather-codepen"
+            class="feather feather-linkedin"
           >
-            <title>CodePen</title>
-            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-            <line x1="12" y1="22" x2="12" y2="15.5"></line>
-            <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-            <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-            <line x1="12" y1="2" x2="12" y2="8.5"></line>
-          </svg> */}
+            <title>LinkedIn</title>
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+
         <div className="border border-solid border-sky-500 h-24"></div>
       </div>
     </div>
