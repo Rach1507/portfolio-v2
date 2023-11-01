@@ -4,7 +4,7 @@ export default function Intro() {
       {/* just align-items to center x instead of padding - check  */}
       <div className="p-52 pl-0 flex-auto flex-row items-start ">
         <span className="text-xl">Hi , My name is</span> <br />
-        <span className="text-8xl font-sans font-bold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200">
+        <span className="text-8xl font-sans font-bold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-400 to-slate-50">
           Rachitha B R
         </span>
         <br />
