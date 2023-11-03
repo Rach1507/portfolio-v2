@@ -1,7 +1,7 @@
 const LinkFooter = () => {
   return (
     <div className="">
-      <div className="fixed left-14 flex w-6 flex-col justify-end items-center gap-5 bottom-0">
+      <div className="fixed left-14 flex flex-col w-6 justify-end items-center gap-5 bottom-0">
         <a
           href="https://github.com/Rach1507"
           className="text-slate-400 w-6 h-6 hover:text-slate-50"

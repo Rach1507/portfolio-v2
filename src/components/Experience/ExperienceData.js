@@ -1,22 +1,22 @@
-export const frontEndRoleName =
-  "Associate Software Engineer (Front End) - Synamedia";
+export const frontEnd ={
 
-export const frontEndActions = [
-  ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-  ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-  ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-  ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-];
+  roleName : "Associate Software Engineer (Front End) - Synamedia",
 
-export const frontEndTechStack = [
+  actions : [
+  ` Now this is a story all about how, my life got
+                    flipped-turned upside down.Now this is a story all about
+                    how, my life got flipped-turned upside down`,
+  ` Now this is a story all about how, my life got
+                    flipped-turned upside down.Now this is a story all about
+                    how, my life got flipped-turned upside down`,
+  ` Now this is a story all about how, my life got
+                    flipped-turned upside down.Now this is a story all about
+                    how, my life got flipped-turned upside down`,
+  ` Now this is a story all about how, my life got
+                    flipped-turned upside down.Now this is a story all about
+                    how, my life got flipped-turned upside down`,
+],
+techStack : [
   {
     name: "React",
     icon: "../../../asset/React.jpg",
@@ -41,8 +41,10 @@ export const frontEndTechStack = [
     name: "Headless",
     icon: "../../../asset/React.jpg",
   },
-];
+],
+productUrl : "https://www.synamedia.com/product/iris/"
 
+}
 
 export const backendEndRoleName =
   "Associate Software Engineer (Back End) - Synamedia";

@@ -1,7 +1,7 @@
 export default function MailFooter() {
   return (
     <div className="col-span-1">
-      <div className="fixed flex w-9 flex-col justify-end items-center gap-5 bottom-0 right-10 ">
+      <div className="fixed flex w-9 flex-col items-center gap-5 bottom-0 right-10 ">
         <p className="grid grid-row-1 writing-mode hover:select-text selection:bg-slate-600">
           rachitha715@gmail.com
         </p>

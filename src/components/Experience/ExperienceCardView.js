@@ -1,9 +1,7 @@
 import { useState } from "react";
 import Card from "./Card";
 import {
-  frontEndActions,
-  frontEndRoleName,
-  frontEndTechStack,
+frontEnd,
   backEndActions,
   backendEndRoleName,
   backEndTechStack,
@@ -23,8 +21,11 @@ export default function ExperienceCardView() {
         <div className="grid grid-cols-5 mt-24">
           <div className="grid col-start-1 grid-rows-5 ">
             <button
-              selected
-              className=" p-5 hover:border-l  hover:backdrop-contrast-75"
+              className={
+                selected === "FE"
+                  ? "p-5 border-l  backdrop-contrast-75 "
+                  : "p-5 hover:border-l  hover:backdrop-contrast-75 "
+              }
               onClick={() => {
                 setSelected("FE");
               }}
@@ -32,7 +33,11 @@ export default function ExperienceCardView() {
               Jan 2023 - Present
             </button>
             <button
-              className=" p-5 hover:border-l  hover:backdrop-contrast-75 "
+              className={
+                selected === "BE"
+                  ? "p-5 border-l  backdrop-contrast-75 "
+                  : "p-5 hover:border-l  hover:backdrop-contrast-75 "
+              }
               onClick={() => {
                 setSelected("BE");
               }}
@@ -40,7 +45,11 @@ export default function ExperienceCardView() {
               June 2022 - Dec 2022
             </button>
             <button
-              className=" p-5 hover:border-l  hover:backdrop-contrast-75"
+              className={
+                selected === "OT"
+                  ? "p-5 border-l  backdrop-contrast-75 "
+                  : "p-5 hover:border-l  hover:backdrop-contrast-75 "
+              }
               onClick={() => {
                 setSelected("OT");
               }}
@@ -50,9 +59,10 @@ export default function ExperienceCardView() {
           </div>
           {selected === "FE" && (
             <Card
-              role={frontEndRoleName}
-              actions={frontEndActions}
-              techStack={frontEndTechStack}
+              role={frontEnd.roleName}
+              actions={frontEnd.actions}
+              techStack={frontEnd.techStack}
+              productUrl = {frontEnd.productUrl}
             ></Card>
           )}
 
