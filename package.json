@@ -38,5 +38,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
-  }
+  },
+  "homepage":"https://rach1507.github.io/portfolio-v2"
 }
