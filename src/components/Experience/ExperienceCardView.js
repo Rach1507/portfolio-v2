@@ -1,17 +1,9 @@
 import { useState } from "react";
 import Card from "./Card";
-import {
-frontEnd,
-  backEndActions,
-  backendEndRoleName,
-  backEndTechStack,
-  otActions,
-  otRoleName,
-  otTechStack,
-} from "./ExperienceData";
+import { synamediaRoleInfo, otRoleInfo } from "./ExperienceData";
 
 export default function ExperienceCardView() {
-  const [selected, setSelected] = useState("FE");
+  const [selected, setSelected] = useState("Sy");
   return (
     <div className="">
       <div className="pt-24 pl-0 ">
@@ -22,63 +14,46 @@ export default function ExperienceCardView() {
           <div className="grid col-start-1 grid-rows-5 ">
             <button
               className={
-                selected === "FE"
-                  ? "p-5 border-l  backdrop-contrast-75 "
-                  : "p-5 hover:border-l  hover:backdrop-contrast-75 "
+                selected === "Sy"
+                  ? "p-5 border-l font-bold backdrop-contrast-75 "
+                  : "p-5 hover:border-l font-bold hover:backdrop-contrast-75 "
               }
               onClick={() => {
-                setSelected("FE");
+                setSelected("Sy");
               }}
             >
-              Jan 2023 - Present
-            </button>
-            <button
-              className={
-                selected === "BE"
-                  ? "p-5 border-l  backdrop-contrast-75 "
-                  : "p-5 hover:border-l  hover:backdrop-contrast-75 "
-              }
-              onClick={() => {
-                setSelected("BE");
-              }}
-            >
-              June 2022 - Dec 2022
+              Synamedia
             </button>
             <button
               className={
                 selected === "OT"
-                  ? "p-5 border-l  backdrop-contrast-75 "
-                  : "p-5 hover:border-l  hover:backdrop-contrast-75 "
+                  ? "p-5 border-l font-bold backdrop-contrast-75 "
+                  : "p-5 hover:border-l font-bold hover:backdrop-contrast-75 "
               }
               onClick={() => {
                 setSelected("OT");
               }}
             >
-              Mar 2022 - June 2022
+              OneTrust
             </button>
           </div>
-          {selected === "FE" && (
+          {selected === "Sy" && (
             <Card
-              role={frontEnd.roleName}
-              actions={frontEnd.actions}
-              techStack={frontEnd.techStack}
-              productUrl = {frontEnd.productUrl}
-            ></Card>
-          )}
-
-          {selected === "BE" && (
-            <Card
-              role={backendEndRoleName}
-              actions={backEndActions}
-              techStack={backEndTechStack}
+              role={synamediaRoleInfo.roleName}
+              year={synamediaRoleInfo.year}
+              actions={synamediaRoleInfo.actions}
+              techStack={synamediaRoleInfo.techStack}
+              productUrl={synamediaRoleInfo.productUrl}
             ></Card>
           )}
 
           {selected === "OT" && (
             <Card
-              role={otRoleName}
-              actions={otActions}
-              techStack={otTechStack}
+              role={otRoleInfo.roleName}
+              year={otRoleInfo.year}
+              actions={otRoleInfo.actions}
+              techStack={otRoleInfo.techStack}
+              productUrl={otRoleInfo.productUrl}
             ></Card>
           )}
         </div>

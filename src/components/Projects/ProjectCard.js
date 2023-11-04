@@ -1,20 +1,60 @@
 import portfolioImage from "../../assests/portfolio.png";
 export function RightProjectCard() {
-  const techStack = ["ReactJS", "Tailwind", "NextJS", "Vercel"];
+  const techStack = [
+    "ReactJS",
+    "NextJS",
+    "scss",
+    "Radix",
+    "Headless Architecture",
+  ];
   return (
     <div className="w-full grid grid-cols-3">
-      <div className="col-start-1 col-span-2 justify-center items-start">
-        <img src={portfolioImage} className="opacity-50" alt="" />
+      <div className="col-start-1 col-span-1  justify-center items-start">
+        {/* {rounded-full image } */}
+        <img src={portfolioImage} className="opacity-50 w-full h-ful" alt="" />
       </div>
-      <div className="flex flex-col items-end gap-10">
+      <div className="flex flex-col col-start-2 col-span-2 ml-36 items-end gap-10 z-20">
         <div className="font-bold text-lg">Header</div>
-        <div className=" backdrop-contrast-75 z-20 text-slate-50 text-sm font-normal tracking-wide text-right leading-6 p-5 break-words">
-          this prokect
-          jhioadhnfejsdbjbewjssajnsadsjkbjkdsbjkbjsdkbjkfbdjksfbthis prokect
-          jhioadhnfejsdbjbewjssajnsadsjkbjkdsbjkbjsdkbjkfbdjksfb this prokect
+        <div className=" backdrop-contrast-75 text-slate-50 text-sm font-normal tracking-wide text-right leading-6 p-5 ">
+          <ul className="flex flex-col gap-5">
+            <li>
+              Developemnt of new features along with required analysis and
+              discussion of Figma (IRIS )product using{" "}
+              <span className="text-sky-500">ReactJS , Next js , Scss</span>
+              and automated testing for robustness using Cypress .
+            </li>
+            <li>
+              SSAI Analytics Dashboard , which was , Targeting of Key Value ,
+              Assest , Agency{" "}
+            </li>
+            <li>
+              Developement of
+              <span className="text-sky-500"> Headless UI Library</span>{" "}
+              components using Radix , storybook , Style dictionary , jest that
+              is to be used by all products,by all product teams of Synamedia
+              such as <span className="text-sky-500">Toggle</span> ,{" "}
+              <span className="text-sky-500">Table</span>,{" "}
+              <span className="text-sky-500">Date Picker</span> .
+            </li>
+            <li>
+              Considered robustness , rondsaonokdfns while building the library,
+              all the features
+            </li>
+            <li>
+              Actively represented team and demonstrated the product and library
+              in all demos during Open Days , CTO visits , CFO visits , and
+              other End of sprint and AC demos
+            </li>
+            <li></li>
+          </ul>
         </div>
         <div className="text-slate-50 text-sm font-semibold flex gap-10">
-          {techStack.map((tech) => (
+          {techStack.slice(0, 3).map((tech) => (
+            <span>{tech}</span>
+          ))}
+        </div>
+        <div className="text-slate-50 text-sm font-semibold flex gap-10">
+          {techStack.slice(3).map((tech) => (
             <span>{tech}</span>
           ))}
         </div>
@@ -82,9 +122,9 @@ export function LeftProjectCard() {
       <div className="flex flex-col items-start gap-10">
         <div className="font-bold text-lg">Header</div>
         <div className=" backdrop-contrast-75 z-20 text-slate-50 text-sm font-normal tracking-wide text-left leading-6 p-5 break-words">
-          this prokect
-          jhioadhnfejsdbjbewjssajnsadsjkbjkdsbjkbjsdkbjkfbdjksfbthis prokect
-          jhioadhnfejsdbjbewjssajnsadsjkbjkdsbjkbjsdkbjkfbdjksfb this prokect
+          Worked on many Continuous Daily monitoring of Sanity test ,
+          investigating , fixing of failures if any . Worked on increasing unit
+          test coverage and the achieved increase percentage by 15%
         </div>
         <div className="text-slate-50 text-sm font-semibold flex gap-10">
           {techStack.map((tech) => (

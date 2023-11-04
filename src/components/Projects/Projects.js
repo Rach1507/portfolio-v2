@@ -8,7 +8,7 @@ export default function Projects() {
       <div className="grid grid-cols-8 ">
         <div className="col-span-6 flex flex-col  gap-36 col-start-2 ">
           <div className="col-span-6 text-2xl font-sans font-bold bg-clip-text text-underline tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200">
-            Some personal projects I've worked on
+            Some products that I've worked on recently
           </div>
           <RightProjectCard />
           <LeftProjectCard />
