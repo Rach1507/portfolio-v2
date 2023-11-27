@@ -2,15 +2,9 @@ export const synamediaRoleInfo = {
   roleName: "Associate Software Engineer",
   year: "Jul 2022 - Present",
   actions: [
-    ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-    ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-    ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
+    `Completed product design revamp one of Synamedia's products along with it developed new features , enhancements whilst coordinating with product team`,
+    `Built and enhanced different headless ui components for the internal Common UI library`,
+    `Delivered various backend changes , new features , spike tasks , test coverage improvements to support Takedown Service microservices`,
   ],
   techStack: [
     {
@@ -220,18 +214,10 @@ export const otRoleInfo = {
   roleName: "Full Stack Developer Intern",
   year: "Mar 2022- June 2022",
   actions: [
-    ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-    ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-    ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
-    ` Now this is a story all about how, my life got
-                    flipped-turned upside down.Now this is a story all about
-                    how, my life got flipped-turned upside down`,
+    `Worked on feature enhancements , resolving bottlenecks for microservice managed by team with Angular on the front end and Spring Boot on the backend`,
+    `Tested the features using JUnit and Mockito`,
+    `Refactored existing code and test cases, and improved build time and performance`,
+    `Resolved major bugs on the front end`,
   ],
   techStack: [
     {

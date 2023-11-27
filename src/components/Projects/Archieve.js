@@ -4,7 +4,7 @@ export default function Archieve({ list }) {
   const [page, setPage] = useState(0);
 
   return (
-    <div className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-bl from-blue-950 to-black font-sans items-center justify-center">
+    <div className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-bl from-blue-950 to-black font-sans items-center justify-center overflow-hidden ">
       <div className="flex flex-col items-center ml-14 ">
         <button
           disabled={page === 0}
