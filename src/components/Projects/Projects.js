@@ -3,7 +3,7 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="pt-36 pb-36 flex flex-col gap-36 w-full min-h-max bg-gradient-to-br from-black to-blue-950 font-sans overflow-hidden "
+      className="pt-36 pb-36 flex flex-col gap-36 w-full min-h-max bg-gradient-to-bl from-blue-950 to-black font-sans overflow-hidden "
     >
       <div className="grid grid-cols-8 ">
         <div className="col-span-6 flex flex-col  gap-36 col-start-2 ">

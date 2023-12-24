@@ -1,28 +1,30 @@
 import portfolioImage from "../../assests/portfolio.png";
-
+import uxImage from "../../assests/ux-sm.png"
 export function RightProjectCard() {
   const techStack = [
     "ReactJS",
     "NextJS",
     "Tailwind",
     "GraphQL",
-    "Contentful CMS"
+    "Contentful CMS",
   ];
   return (
     <div className="w-full grid grid-cols-3">
       <div className="col-start-1 col-span-2  justify-center items-start">
         {/* {rounded-full image } */}
-        <img src={portfolioImage} className="opacity-50 w-full h-ful" alt="" />
+        <img src={uxImage} className="opacity-50 w-full h-ful" alt="" />
       </div>
       <div className="flex flex-col z-20 items-end gap-10 ">
         <div className="font-bold text-lg">UX Designer Portfolio - UpWork</div>
         <div className=" backdrop-contrast-75 text-slate-50 text-sm font-normal tracking-wide text-right leading-6 p-5 ">
           <ul className="flex flex-col gap-5">
             <li>
-              Developemnt of new features along with required analysis and
-              discussion of Figma (IRIS )product using{" "}
-              <span className="text-sky-500">ReactJS , Next js , Scss</span>
-              and automated testing for robustness using Cypress .
+              UX Designer's Portfolio built with
+              <span className="text-sky-500">ReactJS , Next js , GraphQL </span>
+              which updates the content from{" "}
+              <span className="text-sky-500">Contentful CMS</span> commisioned
+              from UpWork , deployed in{" "}
+              <span className="text-sky-500">AWS S3/Vercel</span>
             </li>
           </ul>
         </div>
@@ -100,9 +102,10 @@ export function LeftProjectCard() {
       <div className="flex flex-col items-start gap-10">
         <div className="font-bold text-lg">Personal Portfolio v2</div>
         <div className=" backdrop-contrast-75 z-20 text-slate-50 text-sm font-normal tracking-wide text-left leading-6 p-5 break-words">
-          Worked on many Continuous Daily monitoring of Sanity test ,
-          investigating , fixing of failures if any . Worked on increasing unit
-          test coverage and the achieved increase percentage by 15%
+          Second iteration of my personal portfolio , Designed and developed by
+          me , built using{" "}
+          <span className="text-sky-500">ReactJS , Tailwind </span> deployed in
+          Github pages
         </div>
         <div className="text-slate-50 text-sm font-semibold flex gap-10">
           {techStack.map((tech) => (

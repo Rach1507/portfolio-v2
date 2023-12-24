@@ -4,7 +4,7 @@ const LinkFooter = () => {
       <div className="fixed left-14 flex flex-col w-6 justify-end items-center gap-5 bottom-0">
         <a
           href="https://github.com/Rach1507"
-          className="text-slate-400 w-6 h-6 hover:text-slate-50"
+          className="text-slate-400 w-6 h-6 hover:text-slate-50 hover:animate-bounce"
           aria-label="GitHub"
           target="_blank"
           rel="noreferrer"
@@ -29,7 +29,7 @@ const LinkFooter = () => {
           href="https://codepen.io/Rach715"
           aria-label="CodePen"
           target="_blank"
-          className="text-slate-400 w-7 h-7  hover:text-slate-50"
+          className="text-slate-400 w-7 h-7  hover:text-slate-50 hover:animate-bounce"
           rel="noreferrer"
         >
           <svg
@@ -55,7 +55,7 @@ const LinkFooter = () => {
           href="https://leetcode.com/rach_7815/"
           aria-label="Leetcode"
           target="_blank"
-          className="text-slate-400 w-6 h-6 hover:text-slate-50 text-shadow"
+          className="text-slate-400 w-6 h-6 hover:text-slate-50 text-shadow hover:animate-bounce"
           rel="noreferrer"
         >
           <svg
@@ -81,7 +81,7 @@ const LinkFooter = () => {
           href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
           aria-label="Linkedin"
           target="_blank"
-          className="text-slate-400 w-6 h-6  hover:text-slate-50"
+          className="text-slate-400 w-6 h-6  hover:text-slate-50 hover:animate-bounce"
           rel="noreferrer"
         >
           <svg

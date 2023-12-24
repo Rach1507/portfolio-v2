@@ -4,9 +4,51 @@
 
 @layer utilities {
   .writing-mode {
-     writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
   }
 }
+
+@layer animations {
+  .translateSE {
+    transform: translate(250px, 50%);
+  }
+  .translateN {
+    transform: translateY(250px);
+  }
+  .translateS {
+    transform: translateY(-250px);
+  }
+  .translateSW {
+    transform: translate(-250px, 50%);
+  }
+  .translateNW {
+    transform: translate(-250px, -50%);
+  }
+  .translateNE {
+    transform: translate(250px, -50%);
+  }
+
+   .translateSE2 {
+    transform: translate(350px, 25%);
+  }
+  .translateSW2 {
+    transform: translate(-4000px, 25%);
+  }
+  .translateNW2 {
+    transform: translate(-350px, -25%);
+  }
+  .translateNE2 {
+    transform: translate(350px, -50%);
+  }
+
+  .translateE {
+    transform: translateX(450px);
+  }
+  .translateW {
+    transform: translateX(-450px);
+  }
+}
+
 
 /* body {
   margin: 0;

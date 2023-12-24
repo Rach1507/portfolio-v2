@@ -6,11 +6,11 @@ export default function ExperienceCardView() {
   const [selected, setSelected] = useState("Sy");
   return (
     <div className="">
-      <div className="pt-24 pl-0 ">
+      <div className="pt-24 pl-0 z-[-100] ">
         <span className="text-4xl font-sans font-bold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200">
           Experience
         </span>
-        <div className="grid grid-cols-5 mt-24">
+        <div className="grid grid-cols-5 mt-24 ">
           <div className="grid col-start-1 grid-rows-5 ">
             <button
               className={

@@ -34,7 +34,7 @@ export default function Card({ role,year, actions, techStack, productUrl }) {
           {techStack.slice(4).map((tech) => {
             return (
               <button className="rounded-xl backdrop-contrast-75 h-16 text-center p-4 text-xs font-medium leading-3 tracking-wide text-sky-300 flex flex-row items-center gap-3">
-                <span>{tech.icon}</span>
+               { tech.icon && <span>{tech.icon}</span>}
                 <span>{tech.name}</span>
               </button>
             );

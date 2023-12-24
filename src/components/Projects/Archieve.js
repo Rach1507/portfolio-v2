@@ -4,7 +4,7 @@ export default function Archieve({ list }) {
   const [page, setPage] = useState(0);
 
   return (
-    <div className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-bl from-blue-950 to-black font-sans items-center justify-center overflow-hidden ">
+    <div className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-br to-blue-950 from-black font-sans items-center justify-center overflow-hidden ">
       <div className="flex flex-col items-center ml-14 ">
         <button
           disabled={page === 0}
@@ -64,9 +64,9 @@ export default function Archieve({ list }) {
                 </div>
                 <div className="font-bold">{project.name}</div>
                 <div className="font-sm ">{project.info}</div>
-                <div className="font-thin text-sm">
+                <div className="font-thin text-sm text-sky-300 flex flex-wrap gap-3">
                   {project.techStack.map((tech) => (
-                    <span className="m-2">{tech}</span>
+                    <span>{tech}</span>
                   ))}
                 </div>
               </div>
@@ -74,7 +74,10 @@ export default function Archieve({ list }) {
           })}
         </div>
 
-        <div className="text-medium font-bold text-center hover:underline hover:decoration-sky-500">
+        <div className="flex flex-col gap-3 text-medium font-bold text-center hover:underline hover:decoration-sky-500">
+          <span className="text-xl">
+            ({page + 3 > list.length ? list.length : page + 3} / {list.length})
+          </span>
           <a href="https://github.com/Rach1507?tab=repositories">
             View Full Archieve
           </a>
