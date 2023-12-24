@@ -31,8 +31,8 @@ export default function Archieve({ list }) {
 
         {/* // Use that grid option to fit as many as grids possible in that width and give the whole list  */}
 
-        <div className="flex gap-10">
-          {list.slice(page, page + 3).map((project) => {
+        <div className="flex gap-10 ">
+          {list.slice(page, page + 4).map((project) => {
             return (
               <div className="flex flex-col gap-4 backdrop-contrast-75 p-5 h-72 w-80">
                 <div className="flex content-end flex-row-reverse">
