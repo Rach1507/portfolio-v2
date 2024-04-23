@@ -11,8 +11,12 @@ export function RightProjectCard() {
   return (
     <div className="w-full grid grid-cols-3">
       <div className="col-start-1 col-span-2  justify-center items-start">
-        {/* {rounded-full image } */}
-        <img src={uxImage} className="opacity-50 w-full h-ful" alt="" />
+        <img
+          data-aos="fade-right"
+          src={uxImage}
+          className="opacity-50 w-full h-ful"
+          alt=""
+        />
       </div>
       <div className="flex flex-col z-20 items-end gap-10 ">
         <div className="font-bold text-lg">UX Designer Portfolio - UpWork</div>
@@ -165,7 +169,12 @@ export function LeftProjectCard() {
         </div>
       </div>
       <div className="col-span-2 justify-center items-end ">
-        <img src={portfolioImage} className="opacity-50" alt="" />
+        <img
+          data-aos="fade-left"
+          src={portfolioImage}
+          className="opacity-50"
+          alt=""
+        />
       </div>
     </div>
   );

@@ -2,9 +2,14 @@ export const synamediaRoleInfo = {
   roleName: "Associate Software Engineer",
   year: "Jul 2022 - Present",
   actions: [
-    `Completed product design revamp one of Synamedia's products along with it developed new features , enhancements whilst coordinating with product team`,
-    `Built and enhanced different headless ui components for the internal Common UI library`,
-    `Delivered various backend changes , new features , spike tasks , test coverage improvements to support Takedown Service microservices`,
+    `Successfully completed the development of a product design revamp for one of Synamedia's products.`,
+    `Conducted analysis , development and testing of several new features and enhancements for the IRIS Product UI.`,
+    `Developed and improved multiple headless UI components in the internal Common UI library along with research and analysis of tradeoffs in performance & robustness for the same.`,
+    `Contributed in research, tradeoff evaluations, and performance discussions for several other components.`,
+    `Delivered several backend modifications and new features for the team-managed microservices.`,
+    `Did POCs involving research and standalone development, resulting in the creation of significant features integrated into the microservice`,
+    `Enhanced ATP & test coverage to further assuring robustness of team-managed microservices.`,
+    `Represented the team in various presentations , demos , sprint ceremonies for stakeholders / PM /Leadership team`,
   ],
   techStack: [
     {
@@ -214,10 +219,10 @@ export const otRoleInfo = {
   roleName: "Full Stack Developer Intern",
   year: "Mar 2022- June 2022",
   actions: [
-    `Worked on feature enhancements , resolving bottlenecks for microservice managed by team with Angular on the front end and Spring Boot on the backend`,
-    `Tested the features using JUnit and Mockito`,
-    `Refactored existing code and test cases, and improved build time and performance`,
-    `Resolved major bugs on the front end`,
+    `Collaborated on feature enhancements that resolved bottlenecks for the team-managed microservice, ultimately improving overall performance.`,
+    `Employed JUnit and Mockito to test the new features.`,
+    `Refactored both existing code and test code, resulting in improved test runtime.`,
+    `Successfully delivered fixes for critical front-end bugs.`,
   ],
   techStack: [
     {

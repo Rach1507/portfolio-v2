@@ -78,7 +78,7 @@ export const oldProjectsData = [
     name: "Newsletter SignUp page",
     link: "https://github.com/Rach1507/newsletter-signup-page",
     info: "Newsletter SignUp website that takes in signup requests and posts to mailChimp account, built using bootstrap   ",
-    techStack: ["bootstrap", "NodeJS/ExpressJS", "API management"],
+    techStack: ["Bootstrap", "NodeJS/ExpressJS", "API management"],
   },
   {
     name: "Clinical Trail Management System",
@@ -96,7 +96,7 @@ export const oldProjectsData = [
     name: "Weather Forecast App",
     link: "https://github.com/Rach1507/weatherApp",
     info: "Weather Forecast website that fetches the current weather using OpenWeatherMap APIs , built while learning API management",
-    techStack: ["bootstrap", "NodeJS/ExpressJS", "API management"],
+    techStack: ["Bootstrap", "NodeJS/ExpressJS", "API management"],
   },
 ];
 

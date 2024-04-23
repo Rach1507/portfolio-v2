@@ -4,10 +4,10 @@ export default function Archieve({ list }) {
   const [page, setPage] = useState(0);
 
   return (
-    <div className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-br to-blue-950 from-black font-sans items-center justify-center overflow-hidden ">
-      <div className="flex flex-col items-center ml-14 ">
+    <div className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-b to-blue-950 from-black font-sans items-center justify-center overflow-hidden ">
+      <div className="flex flex-col items-center ml-14">
         <button
-          disabled={page === 0}
+          disabled={page < 0}
           onClick={() => page > 0 && setPage(page - 3)}
         >
           <svg
@@ -31,8 +31,8 @@ export default function Archieve({ list }) {
 
         {/* // Use that grid option to fit as many as grids possible in that width and give the whole list  */}
 
-        <div className="flex gap-10 ">
-          {list.slice(page, page + 4).map((project) => {
+        <div className="flex gap-10 justify-center">
+          {list.slice(page, page + 3).map((project) => {
             return (
               <div className="flex flex-col gap-4 backdrop-contrast-75 p-5 h-72 w-80">
                 <div className="flex content-end flex-row-reverse">
@@ -64,7 +64,7 @@ export default function Archieve({ list }) {
                 </div>
                 <div className="font-bold">{project.name}</div>
                 <div className="font-sm ">{project.info}</div>
-                <div className="font-thin text-sm text-sky-300 flex flex-wrap gap-3">
+                <div className=" text-sm text-sky-300 flex flex-wrap gap-3">
                   {project.techStack.map((tech) => (
                     <span>{tech}</span>
                   ))}

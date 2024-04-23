@@ -1,6 +1,6 @@
 export default function Card({ role,year, actions, techStack, productUrl }) {
   return (
-    <div className="col-span-4 col-start-2 ml-16">
+    <div className="col-span-4 h-full col-start-2 ml-16 ">
       <div className="grid grid-rows-1 grid-cols-3">
         <div className="border-t-4  border-double "></div>
         <div className="grid-start-1 col-span-3  z-20 border-l-4 border-double pt-10 pl-10 h-24 flex flex-col gap-5">
@@ -9,8 +9,8 @@ export default function Card({ role,year, actions, techStack, productUrl }) {
         </div>
       </div>
 
-      <div className="ml-24 z-10 mr-9 mt-9">
-        <ul className="list-disc">
+      <div className="ml-24 h-2/5 w-4/5 z-10 p-9 pt-3 pb-0 mt-16 mr-24 mb-6 backdrop-contrast-75 overflow-y-auto scrollbar scroll-smooth">
+        <ul className="list-disc p-invert list-outside  marker:text-slate-50">
           {actions.map((action) => (
             <li className="p-3" key="">
               {action}
@@ -19,8 +19,8 @@ export default function Card({ role,year, actions, techStack, productUrl }) {
         </ul>
       </div>
 
-      <div className="grid grid-row-2 grid-cols-3">
-        <div className="p-4 col-start-1 ml-14 flex flex-row flex-wrap  gap-4 grid-start-1 col-span-3 text-xl z-20 border-r-4 border-double pt-10 pl-10">
+      <div className="grid grid-row-2 grid-cols-3" id="experience">
+        <div className="p-4 col-start-1 ml-14 flex flex-row flex-wrap  gap-4 grid-start-1 col-span-3 text-xl z-20 border-r-4 border-double pt-10 pl-10 ">
           {techStack.slice(0, 4).map((tech) => {
             return (
               <button className="rounded-xl backdrop-contrast-75  p-4 h-16 text-xs font-medium leading-3 tracking-wide text-sky-300 flex flex-row items-center gap-3">
@@ -34,14 +34,14 @@ export default function Card({ role,year, actions, techStack, productUrl }) {
           {techStack.slice(4).map((tech) => {
             return (
               <button className="rounded-xl backdrop-contrast-75 h-16 text-center p-4 text-xs font-medium leading-3 tracking-wide text-sky-300 flex flex-row items-center gap-3">
-               { tech.icon && <span>{tech.icon}</span>}
+                {tech.icon && <span>{tech.icon}</span>}
                 <span>{tech.name}</span>
               </button>
             );
           })}
         </div>
 
-        <div className="border-b-4 col-start-3 border-r-4  border-double h-9"></div>
+        <div className="border-b-4 col-start-3 border-r-4  border-double h-9 z-50"></div>
       </div>
     </div>
   );

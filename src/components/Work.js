@@ -10,14 +10,14 @@ export default function Work() {
       ([entry]) => {
         setInView(entry.isIntersecting);
       },
-      { rootMargin: "-400px" }
+      { rootMargin: "-300px" }
     );
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
 
   return (
-    <div className=" bg-gradient-to-br to-blue-950 from-black ">
+    <div className="z-10 bg-gradient-to-b to-slate-950 from-black mt-0">
       <div
         ref={ref}
         className="overflow-hidden grid grid-cols-5 grid-rows-1 justify-center items-center w-full h-screen font-sans"
@@ -30,9 +30,9 @@ export default function Work() {
 antialiased  break-words font-normal text-sm text-slate-50 w-1/2 "
           >
             On a typical day @ Work
-            <br /> U'LL FIND ME EITHER
+            <br /> U'LL FIND ME DOING
             <br />
-            <span className="text-sm font-normal ">(doing 2/3 of these)</span>
+            <span className="text-sm font-normal ">(either 2/3 of these)</span>
           </div>
         </div>
         <div
@@ -139,8 +139,8 @@ antialiased  break-words font-normal text-sm text-slate-50 w-1/2 "
               : ``
           }`}
         >
-          <div className="rounded-full break-words font-normal  text-sky-300 text-l  w-1/2 ">
-            WRITING CODE. TESTING IT
+          <div className="rounded-full break-words font-bold  text-sky-300 text-xl  w-1/2 ">
+            WRITING CODE. <br /> TESTING IT
           </div>
         </div>
         <div
@@ -150,7 +150,7 @@ antialiased  break-words font-normal text-sm text-slate-50 w-1/2 "
               : ``
           }`}
         >
-          <div className="rounded-full break-words font-normal  text-sky-300  text-l  w-1/2 ">
+          <div className="rounded-full break-words font-bold  text-sky-300  text-xl  w-1/2 ">
             WRITING CODE. <br /> TESTING IT
           </div>
         </div>

@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="w-full bg-gradient-to-bl to-black from-blue-950 font-sans"
+      className="w-full bg-gradient-to-b to-black from-blue-950 font-sans"
     >
       <div className="m-20 grid grid-rows-5 gap-5 items-center text-center justify-center ">
         <div>
@@ -85,7 +85,7 @@ export default function Contact() {
       </div>
 
       <div className="mb-0">
-        <div className="flex bg-opacity-10 justify-center mb-0 text-sm font-light bg-gradient-to-r  from-black via-blue-950 to-black p-10 w-screen">
+        <div className="flex bg-opacity-10 justify-center mb-0 text-sm font-light backdrop-contrast-150 p-10 w-screen">
           Designed and Built by Rachitha B R 2023
         </div>
       </div>

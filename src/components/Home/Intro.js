@@ -1,54 +1,118 @@
-import { useEffect, useState, useRef } from "react";
+import { Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
+import ReactTyped from "react-typed";
+import {Spotlight} from "../ui/Spotlight.tsx";
 
 export default function Intro() {
-  const [inView, setInView] = useState(false);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setInView(entry.isIntersecting);
-      },
-      { rootMargin: "-200px" }
-    );
-    observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
 
   return (
-    <div className="basis-4/5 overflow-hidden " ref={ref}>
-      <div className="h-screen flex flex-col items-start justify-center font-sans">
-        <span className="text-l font-medium ">
-          Hi !<br /> <span>My name is</span>{" "}
-        </span>
-
+    <div className="mt-[25%] md:lg:mt-[8%]">
+      <div className="h-4/5 w-4/5 flex flex-col items-start justify-center text-intro-desc">
+        {/* <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      /> */}
+        {/* Hi ! 👋
+        <span>I am</span>
         <span
-          className={`text-8xl font-bold bg-clip-text tracking-wide text-transparent  
-         ${
-           inView
-             ? `transition-colors delay-300 ease-in-out bg-gradient-to-l from-slate-400 to-slate-50`
-             : `text-slate-300`
-         }`}
+          className={`text-8xl font-bold bg-clip-text tracking-wide text-transparent
+          ${inView} 
+            ?  overflow-hidden whitespace-nowrap  bg-gradient-to-l from-slate-400 to-slate-50
+            : text-slate-300
+          `}
         >
           Rachitha B R
-        </span>
-        <br />
-        <p className="indent-8 break-words w-3/4 tracking-wide text-sm leading-9">
-          Software Developer with 1.5+ years of Engineering Experience . I
-          graduated from National Institute of Technology , Mysore in the year
-          2022. I am currently working at Synamedia as Associate Sotware
-          Engineer as part of the Core Common UI Team working on Front End
-          tasks. Before graduation , I worked at OneTrust Privacy as a Full
-          Stack Developer Intern for 4 months .Currently diving into the dynamic
-          world of the Front End ecosystem, seeking more exposure and
-          concurrently, I'm immersing myself in reading and understanding,
-          aiming to strengthen the fundamentals for a solid foundation. I really
-          really enjoy singing my heart out , my cult workouts , mid day Harry
-          potter reads / 20 min anime breaks , playing silly with my 3 yo niece
-          , friday evening swims and the dopamine of crossing off mundane tasks
-          from my todo :)))
-        </p>
+        </span> */}
+        <Fade
+          triggerOnce
+          cascade
+          className=" text-center w-full mt-8"
+        >
+          {/* <span className="text-3xl font-semibold"> Hi !👋 , I'm </span> */}
+          {/*
+          <span className="text-3xl font-semibold ">I'm</span> */}
+          <span
+            className="text-intro-header 
+          font-sans font-semibold tracking-wide
+               bg-clip-text  text-transparent
+             overflow-hidden whitespace-nowrap  bg-gradient-to-l from-slate-400 to-slate-50 
+             text-slate-300"
+
+          //  animate-typing
+          >
+            {/* <span
+          className={`text-8xl font-bold bg-clip-text tracking-wide text-transparent
+          ${inView} 
+            ? animate-typing overflow-hidden whitespace-nowrap  bg-gradient-to-l from-slate-400 to-slate-50
+            : text-slate-300
+          `}
+      */
+            }
+            Rachitha B R
+          </span>
+          <span className="text-xl tracking-wide   text-slate-300 font-semibold">Hi , Im a <span className=" underline decoration-slate-300 decoration-wavy underline-offset-8"> Software Developer </span>  , based out of Bangalore with 1.5+ years of
+            Engineering Experience . </span>
+          <span className="text-xl   text-slate-300 tracking-wide font-semibold"> Currently working as a <span className="underline decoration-slate-300 decoration-wavy underline-offset-8"> Front End Engineer </span>  @ Synamedia </span>
+
+        </Fade>
       </div>
+      <Fade delay={2000} className="mt-32 w-4/5 h-1/5 grid grid-cols-7 ">
+        <button
+          className="flex justify-center col-start-4"
+          onClick={() => {
+            const element = document.getElementById("about")
+            console.log(element);
+            element.scrollIntoView({
+              behavior: "smooth",
+              block: "end",
+              inline: "nearest",
+            });
+          }}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="animate-bounce mt-10"
+          >
+            <rect
+              style={{
+                stroke: "#fff",
+                fill: "none",
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: "2px",
+              }}
+              x="32.146"
+              y="19.115"
+              width="35.708"
+              height="61.769"
+              rx="17.854"
+              ry="17.854"
+            />
+            <line
+              style={{
+                stroke: "#fff",
+                fill: "none",
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: "2px",
+              }}
+              x1="50.073"
+              y1="32.979"
+              x2="50.073"
+              y2="66.94"
+            />
+            <polyline
+              style={{
+                stroke: "#fff",
+                fill: "none",
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                strokeWidth: "2px",
+              }}
+              points="58.205 58.815 50 67.021 41.795 58.815"
+            />
+          </svg>
+        </button>
+      </Fade>
     </div>
   );
 }

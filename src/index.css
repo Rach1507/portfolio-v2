@@ -3,8 +3,80 @@
 @tailwind utilities;
 
 @layer utilities {
+
+  .text-intro-header{
+    font-size: clamp(0.7rem , 0.7rem + 8.6vw , 6.5rem);
+
+  }
+
+  .list-image-university{
+    list-style-image: url('./assests/university-flat-32.png');
+  }
+
+  .list-image-frontend{
+    list-style-image: url('./assests/frontend-dev-32.png');
+  }
+
+  .list-image-code{
+    list-style-image: url('./assests/code-50.png');
+  }
+
+.text-navbar{
+   font-size: clamp(0.8rem , 0.3rem + 1.2vw  , 1.125rem);
+
+  }
+  .text-intro-desc{
+     font-size: clamp(0.7rem , 0.3rem + 1.2vw  , 1.125rem);
+     line-height: clamp(0.3, 2 ,2.25);
+  }
   .writing-mode {
     writing-mode: vertical-rl;
+  }
+
+  .p-invert {
+    padding: revert;
+  }
+
+  .auto-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  .animateOnView {
+    animation-timeline: view(y);
+    animation-range-start: cover 20vh;
+    animation-range-end: cover 30vh;
+  }
+
+  .scroll-reveal {
+    color: hsl(0 0% 100% / 0.2);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: linear-gradient(90deg, white, white);
+    animation-timeline: view();
+    animation-range-start: cover 10vh;
+    animation-range-end: cover 40vh;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 50vh;
+    background: rgb(79, 92, 111);
+    opacity: 0;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(56 189 248);
+    border-radius: 60vh;
+    border: 5px solid transparent;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: transparent;
   }
 }
 
@@ -28,7 +100,7 @@
     transform: translate(250px, -50%);
   }
 
-   .translateSE2 {
+  .translateSE2 {
     transform: translate(350px, 25%);
   }
   .translateSW2 {
@@ -48,7 +120,6 @@
     transform: translateX(-450px);
   }
 }
-
 
 /* body {
   margin: 0;
