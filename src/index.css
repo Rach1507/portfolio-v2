@@ -10,15 +10,18 @@
   }
 
   .list-image-university{
-    list-style-image: url('./assests/university-flat-32.png');
+    list-style-image: url('./assests/noun-segment-6560644.svg');
   }
 
   .list-image-frontend{
-    list-style-image: url('./assests/frontend-dev-32.png');
+    list-style-image: url('./assests/noun-front-end-5072094.svg');
   }
 
   .list-image-code{
-    list-style-image: url('./assests/code-50.png');
+    list-style-image: url('./assests/noun-internship-6530862.svg');
+  }
+  .list-image-learning{
+    list-style-image: url('./assests/noun-learning-6493040.svg');
   }
 
 .text-navbar{
