@@ -1,5 +1,5 @@
 import myImage from "../../assests/me-sm.jpg"
-import university from "../../assests/university-flat-32.png"
+
 
 
 export default function About() {
@@ -19,25 +19,24 @@ export default function About() {
                             </div>
                             <div className="w-full grid grid-cols-5 gap-8">
                                 <div className="col-span-3 flex flex-col font-normal text-lg items-start gap-8  text-balance">
-
-                                    <ul className="list-inside list-image-university"><li className=""> I graduated from National Institute of
+                                    <ul className="list-inside"><li className=""> I graduated from National Institute of
                                         Engineering , Mysore in July 2022.</li></ul>
-                                    <ul className="list-inside list-image-frontend"> <li>I am currently working at
+                                    <ul className="list-inside"> <li>I am currently working at
                                         Synamedia as Associate Software Engineer as part of the Core Common
                                         UI Team working on building product UIs.</li>
                                     </ul>
-                                    <ul className="list-inside list-image-internship"><li>Before graduation , I
+                                    <ul className="list-inside"><li>Before graduation , I
                                         worked at OneTrust Privacy as a Full Stack Developer Intern for 4
                                         months.</li>
                                         
                                     </ul>
-                                    <ul className="list-inside  list-image-learning"><li>Currently diving into the dynamic world of the Front End
+                                    <ul className="list-inside"><li>Currently diving into the dynamic world of the Front End
                                         ecosystem, seeking more exposure , concurrently I'm immersing myself
                                         in reading and understanding, aiming to strengthen the fundamentals
                                         for a overall solid foundation.</li>
                                         
                                     </ul>
-                                    <ul className="list-inside list-image-hobbies"> <li>I really really enjoy singing my heart out , my cult workouts , mid day reads / 20 min anime/tv breaks , chess games with my niece , playing silly with my  3 yo nephew , friday evening swims and the dopamine boost of crossing
+                                    <ul className="list-inside"> <li>I really really enjoy singing my heart out , my cult workouts , mid day reads / 20 min anime/tv breaks , chess games with my niece , playing silly with my  3 yo nephew , friday evening swims and the dopamine boost of crossing
                                         off mundane tasks from my todo :)))</li>
                                         
                                     </ul>

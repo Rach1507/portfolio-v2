@@ -9,6 +9,10 @@
 
   }
 
+  .list-image-hobbies{
+    list-style-image: url('./assests/noun-hobbies-3683675.svg');
+  }
+
   .list-image-university{
     list-style-image: url('./assests/noun-segment-6560644.svg');
   }
