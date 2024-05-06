@@ -33,8 +33,8 @@
 
   }
   .text-intro-desc{
-     font-size: clamp(0.7rem , 0.3rem + 1.2vw  , 1.125rem);
-     line-height: clamp(0.3, 2 ,2.25);
+     font-size: clamp(0.7rem , 0.3rem + 1.2vw  , 1.25rem);
+     line-height: clamp(0.3, 2 ,1.75);
   }
   .writing-mode {
     writing-mode: vertical-rl;

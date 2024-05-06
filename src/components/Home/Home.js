@@ -11,9 +11,7 @@ const Home = () => {
     <div
       id="home"
       className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-b
-     
         to-blue-950
-       
        "
        //  from-black via-[#0f0230] to-black
       //  from-black via-[#0f0230] to-slate-950

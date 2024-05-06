@@ -32,7 +32,7 @@ export function Button({
   return (
     <Component
       className={cn(
-        "bg-transparent relative h-16 w-32 p-[1px] overflow-hidden ",
+        "bg-transparent relative md:h-16 md:w-32 h-10 w-24 lg:h-16 lg:w-32 p-[1px] overflow-hidden ",
         containerClassName
       )}
       style={{

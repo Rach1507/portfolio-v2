@@ -50,15 +50,15 @@ export default function Intro() {
             }
             Rachitha B R
           </span>
-          <span className="text-xl tracking-wide   text-slate-300 font-semibold">Hi , Im a <span className=" underline decoration-slate-300 decoration-wavy underline-offset-8"> Software Developer </span>  , based out of Bangalore with 1.5+ years of
+          <span className="text-xl text-intro-desc tracking-wide text-slate-300 font-semibold">Hi , Im a <span className=" underline decoration-slate-300 decoration-wavy md:underline-offset-8"> Software Developer </span>  , based out of Bangalore with 1.5+ years of
             Engineering Experience . </span>
-          <span className="text-xl   text-slate-300 tracking-wide font-semibold"> Currently working as a <span className="underline decoration-slate-300 decoration-wavy underline-offset-8"> Front End Engineer </span>  @ Synamedia </span>
+          <span className="text-xl text-intro-desc  text-slate-300 tracking-wide font-semibold"> Currently working as a <span className="underline decoration-slate-300 decoration-wavy md:underline-offset-8"> Front End Engineer </span>  @ Synamedia </span>
 
         </Fade>
       </div>
-      <Fade delay={2000} className="mt-32 w-4/5 h-1/5 grid grid-cols-7 ">
+      <Fade delay={2000} className="mt-32 w-4/5 h-1/5 grid md:grid-cols-7 grid-cols-3 ">
         <button
-          className="flex justify-center col-start-4"
+          className="flex justify-center col-start-2 md:col-start-4"
           onClick={() => {
             const element = document.getElementById("about")
             console.log(element);
