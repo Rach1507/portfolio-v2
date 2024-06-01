@@ -5,8 +5,23 @@
 @layer utilities {
 
   .text-intro-header{
-    font-size: clamp(0.7rem , 0.7rem + 8.6vw , 6.5rem);
+    font-size: clamp(0.7rem , 0.8rem + 8.6vw , 6.5rem);
+  }
 
+  .text-experience-header{
+    font-size: clamp(0.5rem , 0.4rem + 2.5vw , 1.25rem);
+  }
+
+  .opacity-0{
+    opacity: 0;
+  }
+
+  .opacity-100{
+    opacity: 1;
+  }
+
+  .text-section-headers{
+    font-size: clamp(0.8rem , 0.4rem + 4.6vw , 2.25rem);
   }
 
   .list-image-hobbies{
@@ -33,9 +48,22 @@
 
   }
   .text-intro-desc{
-     font-size: clamp(0.7rem , 0.3rem + 1.2vw  , 1.25rem);
+     font-size: clamp(0.7rem , 0.4rem + 1.4vw  , 1.25rem);
      line-height: clamp(0.3, 2 ,1.75);
   }
+
+  .text-section-desc{
+    font-size: clamp(0.9rem , 0.3rem + 1.2vw  , 1.125rem);
+    line-height: clamp(0.4, 2 ,1.75);
+ }
+
+
+ .text-archieve-desc{
+  font-size: clamp(0.8rem , 0.3rem + 1.2vw  , 1.125rem);
+  line-height: clamp(0.4, 2 ,1.75);
+ }
+
+
   .writing-mode {
     writing-mode: vertical-rl;
   }

@@ -1,14 +1,40 @@
-import { useState } from "react";
+import { useState , useEffect, useRef  } from "react";
+
 
 export default function Archieve({ list }) {
   const [page, setPage] = useState(0);
+  const [totalGrids, setTotalGrids] = useState();
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (containerRef.current) {
+
+        setTotalGrids(
+          Math.floor(containerRef.current.offsetWidth / 300) || 1,
+        );
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Initial calculation
+    handleResize();
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+
+  console.log(totalGrids);
+
 
   return (
     <div className="grid grid-cols-6 grid-rows-1 w-full h-screen bg-gradient-to-b to-blue-950 from-black font-sans items-center justify-center overflow-hidden ">
-      <div className="flex flex-col items-center ml-14">
+      <div className="flex flex-col items-center md:ml-14">
         <button
           disabled={page < 0}
-          onClick={() => page > 0 && setPage(page - 3)}
+          onClick={() => page > 0 && setPage(page - totalGrids)}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +45,7 @@ export default function Archieve({ list }) {
           </svg>
         </button>
       </div>
-      <div className="col-span-4 col-start-2 flex flex-col gap-10">
+      <div id = "achiveContainer" ref={containerRef} className="col-span-4 col-start-2 flex flex-col gap-10">
         <div>
           <div className="text-center text-2xl font-sans font-bold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-50">
             Few Other Projects
@@ -29,12 +55,14 @@ export default function Archieve({ list }) {
           </div>
         </div>
 
-        {/* // Use that grid option to fit as many as grids possible in that width and give the whole list  */}
+        
+
+        {/* TODO : Use that grid option to fit as many as grids possible in that width and give the whole list  */}
 
         <div className="flex gap-10 justify-center">
-          {list.slice(page, page + 3).map((project) => {
+          {list.slice(page, page + totalGrids).map((project) => {
             return (
-              <div className="flex flex-col gap-4 backdrop-contrast-75 p-5 h-72 w-80">
+              <div className="flex flex-col gap-4 backdrop-contrast-75 pt-5 pr-5 pl-5 pb-5  h-auto w-80">
                 <div className="flex content-end flex-row-reverse">
                   <a
                     href={project.link}
@@ -63,10 +91,10 @@ export default function Archieve({ list }) {
                   </a>
                 </div>
                 <div className="font-bold">{project.name}</div>
-                <div className="font-sm ">{project.info}</div>
-                <div className=" text-sm text-sky-300 flex flex-wrap gap-3">
+                <div className="font-sm text-archieve-desc ">{project.info}</div>
+                <div className=" text-sm  text-sky-300 flex flex-wrap gap-2 md:gap-3">
                   {project.techStack.map((tech) => (
-                    <span>{tech}</span>
+                    <span className="text-section-desc">{tech}</span>
                   ))}
                 </div>
               </div>
@@ -76,7 +104,7 @@ export default function Archieve({ list }) {
 
         <div className="flex flex-col gap-3 text-medium font-bold text-center hover:underline hover:decoration-sky-500">
           <span className="text-xl">
-            ({page + 3 > list.length ? list.length : page + 3} / {list.length})
+            ({page + totalGrids > list.length ? list.length : page + totalGrids} / {list.length})
           </span>
           <a href="https://github.com/Rach1507?tab=repositories">
             View Full Archieve
@@ -85,14 +113,14 @@ export default function Archieve({ list }) {
       </div>
       <div className="flex flex-col items-center ">
         <button
-          disabled={page + 3 >= list.length}
-          onClick={() => setPage(page + 3)}
+          disabled={page + totalGrids >= list.length}
+          onClick={() => setPage(page + totalGrids)}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512"
             className={
-              page + 3 < list.length ? "fill-sky-300 w-7" : "fill-slate-500 w-7"
+              page + totalGrids < list.length ? "fill-sky-300 w-7" : "fill-slate-500 w-7"
             }
           >
             <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />

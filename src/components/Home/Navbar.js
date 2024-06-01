@@ -34,13 +34,13 @@ export default function Navbar() {
       >
         Experience
       </a>
-      <a href="#projects" className=" order-4 font-light hover:font-bold text-slate-50">
+      <a href="#projects" className=" order-4 md:order-3 font-light hover:font-bold text-slate-50">
         Projects
       </a>
-      <a href="#contact" className=" order-5 font-light hover:font-bold text-slate-50">
+      <a href="#contact" className=" order-5 md:order-4 font-light hover:font-bold text-slate-50">
        Contact
         </a>
-      <div className="order-3 hover:font-bold text-navbar">
+      <div className="order-3 md:order-last hover:font-bold text-navbar">
         <Button 
           borderRadius="2.5rem"
           

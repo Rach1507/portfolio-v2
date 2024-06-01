@@ -5,21 +5,29 @@ import myImage from "../../assests/me-sm.jpg"
 export default function About() {
     return (
         <div
-            className="pt-36 pb-36 grid grid-cols-7 w-screen h-[100vh] bg-gradient-to-b  from-black to-slate-950
+            className=" pt-36 pb-36 grid grid-cols-7 w-screen h-auto md:h-[100vh] bg-gradient-to-b  from-black to-slate-950
    font-sans overflow-hidden"
         >
             <div className="col-span-6 flex flex-col col-start-2">
                 <div
                     id="about"
-                    className=" flex flex-col gap-36 w-full h-full  font-sans overflow-hidden "
+                    className=" w-full h-full font-sans overflow-hidden "
                 >
                     <div className="grid grid-cols-10">
-                        <div className="col-span-7 flex flex-col gap-16 col-start-2 ">
-                            <div className="text-4xl font-sans font-semibold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200 col-span-6 ">A little about me ..
+                        <div className="col-span-7 flex flex-col gap-16 col-start-2 items-center ">
+                            <div className="text-4xl text-section-headers font-sans font-semibold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200 col-span-6 ">A little about me ..
                             </div>
-                            <div className="w-full grid grid-cols-5 gap-8">
-                                <div className="col-span-3 flex flex-col font-normal text-lg items-start gap-8  text-wrap">
-                                    <ul className="list-outside list-image-university"><li className=""> I graduated from National Institute of
+                            <div className="w-full flex flex-col  gap-5 md:grid md:grid-cols-5 md:gap-8">
+                            <div className="col-span-2 md:items-end">
+                                    <img
+                                        data-aos="fade-left"
+                                        src={myImage}
+                                        className="opacity-50 bg-center bg-clip-border rounded-full md:w-96 md:h-96 w-80% h-80%"
+                                        alt="me"
+                                    />
+                                </div>
+                                <div className="col-span-3 p-4 md:p-0 flex flex-col font-normal text-lg text-section-desc md:items-start gap-5 md:gap-8 text-wrap">
+                                    <ul className="list-inside list-image-university"><li className=""> I graduated from National Institute of
                                         Engineering , Mysore in July 2022.</li></ul>
                                     <ul className="list-inside list-image-frontend"> <li>I am currently working at
                                         Synamedia as Associate Software Engineer as part of the Core Common
@@ -41,16 +49,8 @@ export default function About() {
                                         
                                     </ul>
                                 </div>
-                                <div className="col-span-2 justify-center items-end ">
-                                    <img
-                                        data-aos="fade-left"
-                                        src={myImage}
-                                        className="opacity-50 bg-center bg-clip-border rounded-full w-96 h-96 "
-                                        alt="me"
-                                    />
-                                </div>
+ 
                             </div>
-
                         </div>
                     </div>
                 </div>

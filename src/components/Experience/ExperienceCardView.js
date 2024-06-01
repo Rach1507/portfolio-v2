@@ -15,7 +15,7 @@ export default function ExperienceCardView() {
           Experience
         </span>
         <div className="grid grid-cols-5 mt-24 ">
-          <div className="grid col-start-1 grid-rows-5 ">
+          <div className="grid md:col-start-1 grid-rows-5 ">
             <button
               className={
                 selected === "Sy"

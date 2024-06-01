@@ -1,7 +1,7 @@
 const LinkFooter = () => {
   return (
     <div className="">
-      <div className="fixed left-14 flex flex-col w-6 justify-end items-center gap-9 bottom-0">
+      <div className="fixed left-6 lg:left-14 flex flex-col w-6 justify-end items-center gap-9 bottom-0">
         <a
           href="https://github.com/Rach1507"
           className="text-slate-400 h-6 w-6 md:w-9 md:h-9 hover:text-slate-50 hover:animate-bounce"
@@ -102,7 +102,7 @@ const LinkFooter = () => {
           </svg>
         </a>
 
-        <div className="border border-solid border-sky-500 md:h-20 h-14"></div>
+        <div className="border border-solid border-sky-500 lg:h-20 h-14"></div>
       </div>
     </div>
   );
