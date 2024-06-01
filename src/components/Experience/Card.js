@@ -8,7 +8,7 @@ export default function Card({ role,year, actions, techStack, productUrl }) {
           <div className="text-normal font-semibold text-intro-desc text-sky-300">{year}</div>
         </div>
       </div>
-      <div className="mx-auto lg:ml-24 h-[70%] md:h-[30%] lg:h-2/5 w-[85%] md:w-full lg:w-4/5 z-10 lg:p-9 lg:pt-3 pb-0 md:mt-16 mt-8 lg:mr-24 lg:mb-6 backdrop-contrast-75 overflow-y-auto scrollbar scroll-smooth">
+      <div className="mx-auto lg:ml-24 h-[30%] lg:h-2/5 w-[85%] md:w-full lg:w-4/5 z-10 lg:p-9 lg:pt-3 pb-0 md:mt-16 mt-8 lg:mr-24 lg:mb-6 backdrop-contrast-75 overflow-y-auto scrollbar scroll-smooth">
         <ul className="list-disc p-7 pr-1 pt-1  list-outside marker:text-slate-50">
           {actions.map((action) => (
             <li className="p-1 md:p-3 text-section-desc" key="">

@@ -16,23 +16,22 @@ const tabs = [
             >
             </Card>
     },
-    // {
-    //     title: "OneTrust",
-    //     value: "OneTrust",
-    //     content: <div className="opacity-0">
-    //         <Card
-    //             role={otRoleInfo.roleName}
-    //             year={otRoleInfo.year}
-    //             actions={otRoleInfo.actions}
-    //             techStack={otRoleInfo.techStack}
-    //             productUrl={otRoleInfo.productUrl}
-    //         ></Card></div>
-    // }
+    {
+        title: "OneTrust",
+        value: "OneTrust",
+        content:  <Card
+                role={otRoleInfo.roleName}
+                year={otRoleInfo.year}
+                actions={otRoleInfo.actions}
+                techStack={otRoleInfo.techStack}
+                productUrl={otRoleInfo.productUrl}
+            ></Card>
+    }
 ]
 
 const ExperienceCardMobileView = () => {
     return (
-        <div className="h-full">
+        <div className="h-screen">
             <span
                 // ref={experienceRef}
                 id="experience"
@@ -40,7 +39,7 @@ const ExperienceCardMobileView = () => {
             >
                 Experience
             </span>
-            <div className=" flex flex-col max-w-5xl mx-auto w-full h-[90%] items-start justify-start mt-6 mb-40">
+            <div className=" flex flex-col max-w-5xl mx-auto w-full h-full items-start justify-start mt-6 mb-40">
                 <Tabs tabs={tabs} />
             </div>
         </div>
