@@ -44,7 +44,7 @@
   }
 
 .text-navbar{
-   font-size: clamp(0.8rem , 0.3rem + 1.2vw  , 1.125rem);
+   font-size: clamp(0.6rem , 0.3rem + 1vw  , 1.125rem);
 
   }
   .text-intro-desc{

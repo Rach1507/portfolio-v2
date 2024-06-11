@@ -9,16 +9,16 @@ export function RightProjectCard() {
     "Contentful CMS",
   ];
   return (
-    <div className="w-full grid grid-cols-3">
-      <div className="col-start-1 col-span-2  justify-center items-start">
+    <div className="w-full h-1/2 md:h-1/4 grid grid-rows-3 md:grid-rows-0 md:grid-cols-3">
+      <div className="md:col-start-1 col-span-2 md:justify-center md:items-start">
         <img
           data-aos="fade-right"
           src={uxImage}
-          className="opacity-50 w-full h-ful"
+          className="opacity-50 pb-5 w-full"
           alt=""
         />
       </div>
-      <div className="flex flex-col z-20 items-end gap-10 ">
+      <div className="col-span-2 md:col-span-1 row-span-2 flex flex-col z-20 items-end gap-10">
         <div className="font-bold text-lg">UX Designer Portfolio - UpWork</div>
         <div className=" backdrop-contrast-75 text-slate-50 text-sm font-normal tracking-wide text-right leading-6 p-5 ">
           <ul className="flex flex-col gap-5">
@@ -102,8 +102,8 @@ export function LeftProjectCard() {
   const techStack = ["ReactJS", "Tailwind", "NextJS", "Vercel"];
 
   return (
-    <div className="w-full grid grid-cols-3">
-      <div className="flex flex-col items-start gap-10">
+    <div className="w-full h-1/2 md:h-1/4 grid grid-rows-2 md:grid-rows-0 md:grid-cols-3 z-30">
+      <div className="md:w-full row-span-1 md:col-span-1 md:col-start-1  flex flex-col  items-start gap-10 ">
         <div className="font-bold text-lg">Personal Portfolio v2</div>
         <div className=" backdrop-contrast-75 z-20 text-slate-50 text-sm font-normal tracking-wide text-left leading-6 p-5 break-words">
           Second iteration of my personal portfolio , Designed and developed by
@@ -168,11 +168,11 @@ export function LeftProjectCard() {
           </a>
         </div>
       </div>
-      <div className="col-span-2 justify-center items-end ">
+      <div className=" md:w-full col-span-2 row-span-1 md:justify-center md:items-start">
         <img
           data-aos="fade-left"
           src={portfolioImage}
-          className="opacity-50"
+          className="opacity-50 w-full"
           alt=""
         />
       </div>
