@@ -28,6 +28,7 @@ export default function Experience() {
   return (
 
       <div 
+      id="experience" 
         className="grid grid-cols-8 grid-rows-1 w-full bg-gradient-to-b from-slate-950 to-black
      font-sans z-[100] md:z-10"
       >

@@ -5,22 +5,21 @@ import { synamediaRoleInfo, otRoleInfo } from "./ExperienceData";
 export default function ExperienceCardView() {
   const [selected, setSelected] = useState("Sy");
   return (
-    <div className="">
-      <div className="pl-0 z-[-100] ">
+    <div className="h-[120vh]">
+      <div className="h-full pl-0 z-[-100]">
         <span
           // ref={experienceRef}
-          id="experience"
           className="text-4xl font-sans font-bold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200"
         >
           Experience
         </span>
-        <div className="grid grid-cols-5 mt-24 ">
-          <div className="grid md:col-start-1 grid-rows-5 ">
-            <button
+        <div className="grid grid-cols-5 h-screen mt-24 ">
+          <div className="col-span-1 h-full flex md:col-start-1 flex-col items-start w-full">
+              <button
               className={
                 selected === "Sy"
-                  ? "p-5 border-l font-bold backdrop-contrast-50 "
-                  : "p-5 border-l font-bold hover:backdrop-contrast-75 "
+                  ? "p-5 w-full  border-l font-bold backdrop-contrast-50 "
+                  : "p-5 w-full border-l font-bold hover:backdrop-contrast-75 "
               }
               onClick={() => {
                 setSelected("Sy");
@@ -31,8 +30,8 @@ export default function ExperienceCardView() {
             <button
               className={
                 selected === "OT"
-                  ? "p-5 border-l font-bold backdrop-contrast-50 "
-                  : "p-5 border-l font-bold hover:backdrop-contrast-75 "
+                  ? "p-5 w-full  border-l font-bold backdrop-contrast-50 "
+                  : "p-5 w-full border-l font-bold hover:backdrop-contrast-75 "
               }
               onClick={() => {
                 setSelected("OT");
@@ -41,7 +40,7 @@ export default function ExperienceCardView() {
               OneTrust
             </button>
           </div>
-          <div className="col-span-4 ">
+          <div className="col-span-4 h-full">
             {selected === "Sy" && (
               <Card
                 role={synamediaRoleInfo.roleName}

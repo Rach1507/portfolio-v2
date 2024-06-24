@@ -2,15 +2,71 @@ export const synamediaRoleInfo = {
   roleName: "Associate Software Engineer",
   year: "Jul 2022 - Present",
   actions: [
-    `Successfully completed the development of a product design revamp for one of Synamedia's products.`,
-    `Conducted analysis , development and testing of several new features and enhancements for the IRIS Product UI.`,
-    `Developed and improved multiple headless UI components in the internal Common UI library along with research and analysis of tradeoffs in performance & robustness for the same.`,
-    `Contributed in research, tradeoff evaluations, and performance discussions for several other components.`,
-    `Delivered several backend modifications and new features for the team-managed microservices.`,
-    `Did POCs involving research and standalone development, resulting in the creation of significant features integrated into the microservice`,
-    `Enhanced ATP & test coverage to further assuring robustness of team-managed microservices.`,
-    `Represented the team in various presentations , demos , sprint ceremonies for stakeholders / PM /Leadership team`,
+    `Product UI Team:`,
+    "Contributed to the development of a product design revamp for one of Synamedia's flagship product UI.,.",
+    "Developed numerous complete flows involving create, edit, delete, bulk delete, and overview functionalities.",
+    "Conducted analysis, development, and testing of various enhancements and bug fixes for the IRIS Product UI.",
+    "Improved test coverage by approximately 8% and significantly stabilized test cases by 98% on EC and achieved 100% stability in GitHub workflow.",
+    "Contributed to the parallelization of test cases, resulting in a 71% reduction in execution time.",
+    "Initiated and implemented continuous improvements to the repository, addressing discrepancies in coding patterns and standards.",
+    "Enhanced and updated documentation to ensure clarity and consistency.",
+    "Represented the team in various presentations and demos for sprint ceremonies, department days for stakeholders , PM and Executive Leadership team",
+    "CommonUI Library:",
+    "Developed components for the Common UI Library, which is integral to Synamedia's Design System and is used across all Synamedia product UIs.",
+    "Enhanced features for multiple UI components to meet new requirements and integrated them into product UI.",
+    "Conducted research and analysis of trade-offs in performance and robustness during component development, and contributed to evaluations and performance discussions for other components",
+    "Provided support for multiple teams to integrate components, resolve bugs, and address queries related to the Common UI Library.",
+    "Conducted POCs focusing on improving developer experience for CommonUI 2.0. Implemented advanced documentation , integrated sandboxes into several components as part of this initiative",
+    "Product Backend team:",
+    "Delivered several backend modifications and new features for the team-managed microservices.",
+    "Conducted POCs involving research and standalone development, resulting in the creation of a key feature integrated as an additional step into the AWS Step Function within the microservice.",
+    "Enhanced ATP, increased test coverage, and integrated additional component, stage 1, stage 2, and e2e test cases, targeting various abstractions to strengthen the robustness of team-managed microservices.",
+    "Successfully completed the development of a product design revamp for one of Synamedia's products.",
+    "Conducted analysis , development and testing of several new features and enhancements for the IRIS Product UI.",
+    "Developed and improved multiple headless UI components in the internal Common UI library along with research and analysis of tradeoffs in performance & robustness for the same.",
+    "Contributed in research, tradeoff evaluations, and performance discussions for several other components.",
+    "Delivered several backend modifications and new features for the team-managed microservices.",
+    "Did POCs involving research and standalone development, resulting in the creation of significant features integrated into the microservice",
+    "Enhanced ATP & test coverage to further assuring robustness of team-managed microservices.",
+    "Represented the team in various presentations , demos , sprint ceremonies for stakeholders / PM /Leadership team",
   ],
+  
+
+// Product UI Team
+// Contributed to the development of a product design revamp for one of Synamedia's flagship product UI.
+// Developed numerous complete flows involving create, edit, delete, bulk delete, and overview functionalities.
+// Conducted analysis, development, and testing of various enhancements and bug fixes for the IRIS Product UI.
+// Improved test coverage by approximately 8% and significantly stabilized test cases by 98% on EC and achieved 100% stability in GitHub workflow.
+// Contributed to the parallelization of test cases, resulting in a 71% reduction in execution time.
+// Initiated and implemented continuous improvements to the repository, addressing discrepancies in coding patterns and standards.
+// Enhanced and updated documentation to ensure clarity and consistency.
+// Represented the team in various presentations and demos for sprint ceremonies, department days for stakeholders , PM and Executive Leadership
+// team
+// CommonUI Library
+// Developed components for the Common UI Library, which is integral to Synamedia's Design System and is used across all Synamedia product UIs.
+// Enhanced features for multiple UI components to meet new requirements and integrated them into product UI.
+// Conducted research and analysis of trade-offs in performance and robustness during component development, and contributed to evaluations
+// and performance discussions for other components
+// Provided support for multiple teams to integrate components, resolve bugs, and address queries related to the Common UI Library.
+// Conducted POCs focusing on improving developer experience for CommonUI 2.0. Implemented advanced documentation , integrated sandboxes
+// into several components as part of this initiative
+// Product Backend team
+// Delivered several backend modifications and new features for the team-managed microservices.
+// Conducted POCs involving research and standalone development, resulting in the creation of a key feature integrated as an additional step into the
+// AWS Step Function within the microservice.
+// Enhanced ATP, increased test coverage, and integrated additional component, stage 1, stage 2, and e2e test cases, targeting various abstractions
+// to strengthen the robustness of team-managed microservices.
+
+
+    // `Successfully completed the development of a product design revamp for one of Synamedia's products.`,
+    // `Conducted analysis , development and testing of several new features and enhancements for the IRIS Product UI.`,
+    // `Developed and improved multiple headless UI components in the internal Common UI library along with research and analysis of tradeoffs in performance & robustness for the same.`,
+    // `Contributed in research, tradeoff evaluations, and performance discussions for several other components.`,
+    // `Delivered several backend modifications and new features for the team-managed microservices.`,
+    // `Did POCs involving research and standalone development, resulting in the creation of significant features integrated into the microservice`,
+    // `Enhanced ATP & test coverage to further assuring robustness of team-managed microservices.`,
+    // `Represented the team in various presentations , demos , sprint ceremonies for stakeholders / PM /Leadership team`,
+
   techStack: [
     {
       name: "React",
@@ -55,7 +111,7 @@ export const synamediaRoleInfo = {
       ),
     },
     {
-      name: "Scss",
+      name: "Sass",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -79,6 +135,33 @@ export const synamediaRoleInfo = {
           <path d="m11.998 0c-6.632 0-11.998 5.367-11.998 12a11.992 11.992 0 0 0 12 12c6.633 0 12-5.367 12-12-.001-6.633-5.412-12-12.002-12zm-5.628 14.575c.392.523.916.742 1.657.742.35 0 .699-.044 1.004-.175.306-.13.655-.306 1.09-.567l1.223 1.745c-1.003.83-2.138 1.222-3.447 1.222-1.048 0-1.92-.218-2.705-.654a4.393 4.393 0 0 1 -1.746-1.92c-.392-.83-.611-1.79-.611-2.925 0-1.09.219-2.094.61-2.923a4.623 4.623 0 0 1 1.748-2.007c.741-.48 1.657-.698 2.661-.698.699 0 1.353.087 1.877.305a5.64 5.64 0 0 1 1.614.96l-1.222 1.658a4.786 4.786 0 0 0 -1.003-.568c-.305-.13-.698-.174-1.048-.174-1.483 0-2.225 1.134-2.225 3.446-.043 1.18.175 2.008.524 2.532h-.001zm12 2.705c-.436 1.353-1.091 2.357-2.008 3.098-.916.743-2.138 1.135-3.665 1.266l-.305-2.05c1.003-.132 1.745-.35 2.225-.7.174-.13.524-.523.524-.523l-3.622-11.607h3.01l2.095 8.683 2.226-8.683h2.923z" />
         </svg>
       ),
+    },
+    {
+      name: "Radix-UI",
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="4 0 17 25" className="fill-sky-300 h-4 md:h-8"><path d="M12 25a8 8 0 1 1 0-16v16zM12 0H4v8h8V0zM17 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="currentcolor" /></svg>
+      ),
+    },
+    {
+      name: "Stitches",
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none"><circle cx="17.5" cy="17.5" r="14.5" stroke="currentColor" stroke-width="2"></circle><path d="M12.8184 31.3218L31.8709 20.3218" stroke="currentColor"></path><path d="M3.31836 14.8674L22.3709 3.86743" stroke="currentColor"></path><path d="M8.65332 29.1077L25.9738 19.1077" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.21582 16.0815L26.5363 6.08154" stroke="currentColor" stroke-linecap="round"></path><path d="M13.2334 14.2297L22.5099 21.1077" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.6973 12.2302L25.9736 19.1078" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.21582 16.0815L19.0459 23.1078" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      )
+    },
+    {
+      name:"Storybook",
+      icon : (<svg  width="32" height="32" viewBox="0 0 32 32" className="fill-sky-300">
+        <path d="M21.786 0.318l-0.161 3.615c-0.005 0.203 0.229 0.328 0.391 0.203l1.411-1.068 1.198 0.932c0.156 0.104 0.365 0 0.375-0.188l-0.135-3.677 1.776-0.135c0.922-0.063 1.708 0.672 1.708 1.599v28.802c0 0.917-0.766 1.646-1.682 1.599l-21.469-0.958c-0.833-0.036-1.505-0.708-1.531-1.547l-1-26.401c-0.052-0.885 0.62-1.646 1.505-1.693l17.599-1.109zM17.693 12.401c0 0.625 4.214 0.318 4.786-0.109 0-4.266-2.292-6.521-6.479-6.521-4.198 0-6.531 2.297-6.531 5.724 0 5.932 8 6.036 8 9.276 0 0.938-0.427 1.469-1.401 1.469-1.281 0-1.802-0.651-1.734-2.88 0-0.479-4.865-0.641-5.026 0-0.359 5.375 2.974 6.932 6.797 6.932 3.724 0 6.63-1.984 6.63-5.573 0-6.359-8.135-6.188-8.135-9.333 0-1.292 0.964-1.464 1.505-1.464 0.604 0 1.667 0.094 1.589 2.49z"/>
+      </svg>
+      )
+    },
+    {
+      name:"Jest",
+      icon :  ( 
+         <svg viewBox="0 0 24 24"> 
+         <path d="m22.251 11.82a3.117 3.117 0 0 0 -2.328-3.01l2.988-8.81h-14.807l2.996 8.838a3.116 3.116 0 0 0 -2.244 2.988c0 1.043.52 1.967 1.313 2.536a8.279 8.279 0 0 1 -1.084 1.244 8.14 8.14 0 0 1 -2.55 1.647c-.834-.563-1.195-1.556-.869-2.446a3.11 3.11 0 0 0 -.91-6.08 3.117 3.117 0 0 0 -3.113 3.113c0 .848.347 1.626.903 2.182-.048.097-.097.195-.146.299-.465.959-.993 2.043-1.195 3.259-.403 2.432.257 4.384 1.849 5.489a5.093 5.093 0 0 0 2.945.931c1.827 0 3.682-.917 5.475-1.807 1.279-.632 2.599-1.292 3.898-1.612.48-.118.98-.187 1.508-.264 1.07-.153 2.175-.312 3.168-.89a4.482 4.482 0 0 0 2.182-3.091c.174-.994 0-1.994-.444-2.87.298-.48.465-1.042.465-1.647zm-1.355 0c0 .965-.785 1.75-1.75 1.75a1.753 1.753 0 0 1 -1.085-3.126l.007-.007c.056-.042.118-.084.18-.125 0 0 .008 0 .008-.007.028-.014.055-.035.083-.05.007 0 .014-.006.021-.006.028-.014.063-.028.097-.042.035-.014.07-.027.098-.041.007 0 .013-.007.02-.007.028-.007.056-.021.084-.028.007 0 .02-.007.028-.007.034-.007.062-.014.097-.02h.007l.104-.022c.007 0 .02 0 .028-.007.028 0 .055-.007.083-.007h.035c.035 0 .07-.007.111-.007h.09c.028 0 .05 0 .077.007h.014c.055.007.111.014.167.028a1.766 1.766 0 0 1 1.396 1.723zm-10.853-10.43h10.93l-2.509 7.4c-.104.02-.208.055-.312.09l-2.64-5.385-2.648 5.35c-.104-.034-.216-.055-.327-.076l-2.494-7.38zm4.968 9.825a3.083 3.083 0 0 0 -.938-1.668l1.438-2.904 1.452 2.967c-.43.43-.743.98-.868 1.605h-1.085zm-3.481-1.098c.034-.007.062-.014.097-.02h.02c.029-.008.056-.008.084-.015h.028c.028 0 .049-.007.076-.007h.271c.028 0 .049.007.07.007.014 0 .02 0 .035.007.027.007.048.007.076.014.007 0 .014 0 .028.007l.097.02h.007c.028.008.056.015.083.029.007 0 .014.007.028.007.021.007.049.014.07.027.007 0 .014.007.02.007.028.014.056.021.084.035h.007a.374.374 0 0 1 .09.049h.007c.028.014.056.034.084.048.007 0 .007.007.013.007.028.014.05.035.077.049l.007.007c.083.062.16.132.236.201l.007.007a1.747 1.747 0 0 1 .48 1.209 1.752 1.752 0 0 1 -3.502 0 1.742 1.742 0 0 1 1.32-1.695zm-6.838-.049c.966 0 1.751.786 1.751 1.751s-.785 1.751-1.75 1.751-1.752-.785-1.752-1.75.786-1.752 1.751-1.752zm16.163 6.025a3.07 3.07 0 0 1 -1.508 2.133c-.758.438-1.689.577-2.669.716a17.29 17.29 0 0 0 -1.64.291c-1.445.355-2.834 1.05-4.182 1.717-1.724.854-3.35 1.66-4.857 1.66a3.645 3.645 0 0 1 -2.154-.688c-1.529-1.056-1.453-3.036-1.272-4.12.167-1.015.632-1.966 1.077-2.877.028-.055.049-.104.077-.16.152.056.312.098.479.126-.264 1.473.486 2.994 1.946 3.745l.264.139.284-.104c1.216-.431 2.342-1.133 3.336-2.071a9.334 9.334 0 0 0 1.445-1.716c.16.027.32.034.48.034a3.117 3.117 0 0 0 3.008-2.327h1.167a3.109 3.109 0 0 0 3.01 2.327c.576 0 1.11-.16 1.57-.43.18.52.236 1.063.139 1.605z"/>
+        </svg>
+      )
     },
     {
       name: "NodeJS",
@@ -139,45 +222,6 @@ export const synamediaRoleInfo = {
         >
           <path d="M 6.5839844 9.0097656 C 5.2239844 9.0097656 3.8432813 9.5400781 3.6132812 9.8300781 C 3.5532812 9.9500781 3.4141406 10.919922 3.7441406 10.919922 C 3.8541406 10.919922 3.9046094 10.939062 4.2246094 10.789062 C 5.4246094 10.319062 6.1849219 10.330078 6.2949219 10.330078 C 7.6449219 10.200078 8.4246875 11.120547 8.3046875 12.310547 L 8.3046875 13.009766 C 7.1646875 12.739766 6.5133594 12.730469 6.1933594 12.730469 C 4.5333594 12.630469 3 13.505688 3 15.429688 C 3 17.539687 4.8832812 17.990937 5.6132812 17.960938 C 6.7032812 17.970938 7.7435937 17.480859 8.4335938 16.630859 C 8.9835938 17.860859 9.33375 17.779297 9.34375 17.779297 C 9.44375 17.779297 9.5235156 17.739453 9.6035156 17.689453 L 10.173828 17.289062 C 10.273828 17.229063 10.353281 17.129766 10.363281 17.009766 C 10.353281 16.719766 9.8330469 16.269766 9.8730469 15.259766 L 9.8730469 12.140625 C 9.9330469 11.280625 9.6542187 10.439062 9.0742188 9.7890625 C 8.3842188 9.2090625 7.4739844 8.9297656 6.5839844 9.0097656 z M 25.957031 9.0097656 C 23.957031 9.0097656 22.807891 10.259297 22.837891 11.529297 C 22.837891 13.269297 24.596875 13.820859 24.796875 13.880859 C 26.486875 14.410859 26.7175 14.430078 27.1875 14.830078 C 27.5875 15.240078 27.537266 16.040625 26.947266 16.390625 C 26.777266 16.490625 26.046484 16.929844 24.396484 16.589844 C 23.846484 16.479844 23.557422 16.350156 23.107422 16.160156 C 22.987422 16.120156 22.707031 16.049922 22.707031 16.419922 L 22.707031 16.910156 C 22.707031 17.140156 22.846641 17.349219 23.056641 17.449219 C 24.106641 17.979219 25.366719 18 25.636719 18 C 25.676719 18 27.976094 18.001219 28.746094 16.449219 C 28.905094 16.129219 29.316875 14.960937 28.546875 13.960938 C 27.906875 13.210938 27.356797 13.130859 25.716797 12.630859 C 25.576797 12.590859 24.366953 12.279687 24.376953 11.429688 C 24.316953 10.339688 25.797422 10.280781 26.107422 10.300781 C 27.357422 10.280781 27.976406 10.749297 28.316406 10.779297 C 28.466406 10.779297 28.537109 10.690234 28.537109 10.490234 L 28.537109 10.029297 C 28.547109 9.9192969 28.507266 9.8107031 28.447266 9.7207031 C 28.047266 9.2007031 26.517031 9.0097656 25.957031 9.0097656 z M 10.777344 9.2597656 C 10.667344 9.2797656 10.587422 9.39 10.607422 9.5 C 10.627422 9.63 10.647266 9.760625 10.697266 9.890625 L 12.9375 17.279297 C 12.9875 17.519297 13.146094 17.780234 13.496094 17.740234 L 14.316406 17.740234 C 14.816406 17.790234 14.886484 17.309766 14.896484 17.259766 L 16.367188 11.099609 L 17.857422 17.269531 C 17.867422 17.319531 17.937734 17.8 18.427734 17.75 L 19.257812 17.75 C 19.617812 17.79 19.787891 17.529062 19.837891 17.289062 C 22.357891 9.1790625 22.187031 9.7303906 22.207031 9.6503906 C 22.247031 9.2303906 22.006797 9.2595313 21.966797 9.2695312 L 21.076172 9.2695312 C 20.626172 9.2195313 20.537578 9.6304688 20.517578 9.7304688 L 18.857422 16.140625 L 17.357422 9.7304688 C 17.287422 9.2404687 16.887109 9.2595313 16.787109 9.2695312 L 16.017578 9.2695312 C 15.577578 9.2295313 15.4675 9.5804687 15.4375 9.7304688 L 13.947266 16.050781 L 12.347656 9.7304688 C 12.307656 9.5304687 12.177109 9.2197656 11.787109 9.2597656 L 10.777344 9.2597656 z M 6.5234375 13.890625 C 7.2434375 13.900625 7.8649219 14.009375 8.2949219 14.109375 C 8.2949219 14.609375 8.313125 14.889844 8.203125 15.339844 C 8.063125 15.819844 7.444375 16.690937 5.984375 16.710938 C 5.144375 16.750937 4.5945313 16.089844 4.6445312 15.339844 C 4.5945313 14.139844 5.8334375 13.840625 6.5234375 13.890625 z M 29.041016 20.001953 C 28.107641 20.014953 27.005922 20.224047 26.169922 20.810547 C 25.911922 20.989547 25.957141 21.238078 26.244141 21.205078 C 27.184141 21.092078 29.276391 20.838406 29.650391 21.316406 C 30.025391 21.794406 29.235719 23.766437 28.886719 24.648438 C 28.778719 24.911437 29.007047 25.020312 29.248047 24.820312 C 30.812047 23.510312 31.218438 20.764141 30.898438 20.369141 C 30.737937 20.171641 29.974391 19.988953 29.041016 20.001953 z M 1.2167969 21.001953 C 0.99873437 21.031953 0.9048125 21.308344 1.1328125 21.527344 C 5.0498125 25.201344 10.225656 27 15.972656 27 C 20.071656 27 24.830234 25.662578 28.115234 23.142578 C 28.658234 22.723578 28.195672 22.09575 27.638672 22.34375 C 23.955672 23.96875 19.955453 24.751953 16.314453 24.751953 C 10.918453 24.751953 5.69475 23.625406 1.46875 21.066406 C 1.37625 21.010406 1.2894844 20.991953 1.2167969 21.001953 z"></path>
         </svg>
-        // <svg
-        //   xmlns="http://www.w3.org/2000/svg"
-        //   x="0px"
-        //   y="0px"
-        //   viewBox="0 0 64 64"
-        // >
-        //   <linearGradient
-        //     id="0QVtQmKaR0uEiMy4kXJm_a_wU62u24brJ44_gr1"
-        //     x1="32.002"
-        //     x2="32.002"
-        //     y1="53.326"
-        //     y2="33.119"
-        //     gradientTransform="matrix(1 0 0 -1 0 66)"
-        //     gradientUnits="userSpaceOnUse"
-        //   >
-        //     <stop offset="0" stop-color="#1a6dff"></stop>
-        //     <stop offset="1" stop-color="#c822ff"></stop>
-        //   </linearGradient>
-        //   <path
-        //     fill="url(#0QVtQmKaR0uEiMy4kXJm_a_wU62u24brJ44_gr1)"
-        //     d="M18.037,26.712c0,0.796,0.085,1.44,0.235,1.913c0.171,0.473,0.383,0.989,0.681,1.548 c0.107,0.172,0.149,0.344,0.149,0.495c0,0.215-0.128,0.429-0.404,0.645l-1.341,0.903c-0.192,0.129-0.383,0.193-0.553,0.193 c-0.213,0-0.425-0.108-0.639-0.301c-0.299-0.323-0.553-0.667-0.767-1.011c-0.213-0.365-0.425-0.773-0.66-1.268 c-1.66,1.977-3.747,2.967-6.259,2.967c-1.788,0-3.215-0.516-4.257-1.548C3.18,30.216,2.648,28.84,2.648,27.12 c0-1.827,0.639-3.311,1.937-4.428c1.299-1.117,3.023-1.677,5.215-1.677c0.724,0,1.469,0.064,2.256,0.172 c0.787,0.108,1.596,0.28,2.448,0.473v-1.569c0-1.633-0.34-2.773-1-3.44c-0.681-0.667-1.831-0.989-3.469-0.989 c-0.745,0-1.511,0.085-2.299,0.28c-0.788,0.193-1.553,0.429-2.299,0.731c-0.34,0.151-0.596,0.236-0.745,0.28 c-0.149,0.043-0.256,0.064-0.34,0.064c-0.299,0-0.447-0.215-0.447-0.667v-1.053c0-0.344,0.043-0.601,0.149-0.752 c0.107-0.151,0.299-0.301,0.596-0.452c0.745-0.387,1.639-0.709,2.683-0.968c1.043-0.28,2.149-0.408,3.32-0.408 c2.533,0,4.385,0.58,5.577,1.741c1.171,1.161,1.767,2.924,1.767,5.288v6.965L18.037,26.712 C18.037,26.711,18.037,26.712,18.037,26.712z M9.394,29.979c0.703,0,1.427-0.129,2.192-0.387c0.767-0.257,1.448-0.731,2.023-1.376 c0.34-0.408,0.596-0.86,0.724-1.376c0.128-0.516,0.213-1.14,0.213-1.871v-0.903c-0.617-0.151-1.277-0.28-1.959-0.365 c-0.681-0.085-1.341-0.129-2.001-0.129c-1.427,0-2.469,0.28-3.172,0.86s-1.043,1.397-1.043,2.472c0,1.011,0.256,1.763,0.788,2.279 C7.67,29.721,8.416,29.979,9.394,29.979z M26.487,32.301c-0.383,0-0.639-0.064-0.809-0.215c-0.171-0.129-0.319-0.429-0.447-0.839 L20.228,14.63c-0.128-0.429-0.192-0.709-0.192-0.86c0-0.344,0.171-0.537,0.511-0.537h2.087c0.404,0,0.681,0.064,0.831,0.215 c0.171,0.129,0.297,0.429,0.425,0.839l3.576,14.232l3.32-14.232c0.107-0.429,0.235-0.709,0.404-0.839 c0.171-0.129,0.468-0.215,0.852-0.215h1.703c0.404,0,0.681,0.064,0.852,0.215c0.171,0.129,0.319,0.429,0.404,0.839l3.363,14.404 l3.683-14.404c0.128-0.429,0.277-0.709,0.425-0.839c0.171-0.129,0.447-0.215,0.831-0.215h1.98c0.34,0,0.532,0.172,0.532,0.537 c0,0.108-0.021,0.215-0.043,0.344c-0.021,0.129-0.064,0.301-0.149,0.537l-5.129,16.617c-0.128,0.429-0.277,0.709-0.447,0.839 c-0.169,0.129-0.447,0.215-0.809,0.215h-1.831c-0.404,0-0.681-0.064-0.852-0.215c-0.171-0.151-0.319-0.429-0.404-0.86 l-3.299-13.866l-3.277,13.845c-0.107,0.429-0.235,0.709-0.404,0.86c-0.171,0.151-0.468,0.215-0.852,0.215H26.487z M53.839,32.881 c-1.107,0-2.213-0.129-3.277-0.387c-1.064-0.257-1.895-0.537-2.448-0.86c-0.34-0.193-0.575-0.408-0.66-0.601 c-0.085-0.193-0.128-0.408-0.128-0.601v-1.096c0-0.452,0.171-0.667,0.489-0.667c0.128,0,0.256,0.021,0.383,0.064 c0.128,0.043,0.319,0.129,0.532,0.215c0.724,0.323,1.511,0.58,2.341,0.752c0.852,0.172,1.681,0.257,2.533,0.257 c1.341,0,2.384-0.236,3.108-0.709c0.724-0.473,1.107-1.161,1.107-2.043c0-0.601-0.192-1.096-0.575-1.505 c-0.383-0.408-1.107-0.773-2.149-1.117l-3.087-0.968c-1.553-0.495-2.703-1.225-3.405-2.193c-0.703-0.945-1.064-1.999-1.064-3.117 c0-0.903,0.192-1.699,0.575-2.387c0.383-0.688,0.895-1.289,1.532-1.763c0.639-0.495,1.363-0.86,2.213-1.117 c0.852-0.256,1.745-0.364,2.683-0.364c0.468,0,0.957,0.021,1.427,0.085c0.489,0.064,0.936,0.151,1.384,0.236 c0.425,0.108,0.831,0.215,1.213,0.344s0.681,0.257,0.895,0.387c0.299,0.172,0.511,0.344,0.639,0.537 c0.128,0.172,0.192,0.408,0.192,0.709v1.011c0,0.452-0.171,0.688-0.489,0.688c-0.171,0-0.447-0.085-0.809-0.257 c-1.213-0.559-2.576-0.839-4.087-0.839c-1.213,0-2.171,0.193-2.831,0.601s-1,1.032-1,1.913c0,0.601,0.213,1.117,0.639,1.527 c0.425,0.408,1.213,0.817,2.341,1.183l3.023,0.968c1.532,0.495,2.64,1.183,3.299,2.064c0.659,0.881,0.979,1.892,0.979,3.009 c0,0.924-0.192,1.763-0.553,2.493c-0.383,0.731-0.895,1.376-1.553,1.892c-0.66,0.537-1.448,0.924-2.363,1.204 C55.924,32.731,54.924,32.881,53.839,32.881z"
-        //   ></path>
-        //   <linearGradient
-        //     id="0QVtQmKaR0uEiMy4kXJm_b_wU62u24brJ44_gr2"
-        //     x1="32"
-        //     x2="32"
-        //     y1="29.23"
-        //     y2="14.674"
-        //     gradientTransform="matrix(1 0 0 -1 0 66)"
-        //     gradientUnits="userSpaceOnUse"
-        //   >
-        //     <stop offset="0" stop-color="#6dc7ff"></stop>
-        //     <stop offset="1" stop-color="#e6abff"></stop>
-        //   </linearGradient>
-        //   <path
-        //     fill="url(#0QVtQmKaR0uEiMy4kXJm_b_wU62u24brJ44_gr2)"
-        //     d="M57.862,43.329 c-7.003,5.224-17.177,7.997-25.926,7.997c-12.26,0-23.308-4.579-31.652-12.189c-0.66-0.601-0.064-1.419,0.724-0.945 c9.025,5.288,20.157,8.492,31.673,8.492c7.769,0,16.305-1.633,24.158-4.988C58.011,41.159,59.011,42.469,57.862,43.329z M60.778,39.976c-0.895-1.161-5.917-0.559-8.195-0.28c-0.681,0.085-0.788-0.516-0.171-0.968c4.001-2.837,10.579-2.021,11.345-1.075 c0.767,0.968-0.213,7.611-3.959,10.792c-0.575,0.495-1.128,0.236-0.873-0.408C59.778,45.909,61.672,41.115,60.778,39.976z"
-        //   ></path>
-        // </svg>
       ),
     },
     {

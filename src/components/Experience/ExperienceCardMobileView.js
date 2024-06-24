@@ -34,7 +34,6 @@ const ExperienceCardMobileView = () => {
         <div className="h-screen">
             <span
                 // ref={experienceRef}
-                id="experience"
                 className="text-section-headers text-4xl font-sans font-bold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200"
             >
                 Experience

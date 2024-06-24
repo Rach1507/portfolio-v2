@@ -27,7 +27,7 @@ export default function Work() {
         >
           <div
             className="rounded-full 
-antialiased  break-words font-normal text-sm text-slate-50 w-1/2 "
+            antialiased  break-words font-normal text-sm text-slate-50 w-1/2 "
           >
             On a typical day @ Work
             <br /> U'LL FIND ME DOING
@@ -89,7 +89,7 @@ antialiased  break-words font-normal text-sm text-slate-50 w-1/2 "
           }`}
         >
           <div className="rounded-full break-words font-normal text-sky-300 text-sm  w-1/2 ">
-            Presenting at Team presentations, Sprint / End of AC demos
+            Doing Scrum stuff if it's my turn to be the Scrum Master ( managing stories, demos, demo preps, dragging people into meetings.. ;/)
           </div>
         </div>
 
@@ -127,8 +127,7 @@ antialiased  break-words font-normal text-sm text-slate-50 w-1/2 "
           }`}
         >
           <div className="rounded-full break-words font-normal  text-sky-300 text-sm  w-1/2 ">
-            Occasionally Support for other product teams on integrating UI
-            library
+          Support for teams to integrate components, resolve bugs, and address queries related to the Common UI Library.
           </div>
         </div>
 

@@ -1,9 +1,9 @@
-import { RightProjectCard, LeftProjectCard } from "./ProjectCard";
+import { RightProjectCard, LeftProjectCard} from "./ProjectCard";
 export default function Projects() {
   return (
     <div
       id="projects"
-      className="pt-36 pb-36 w-full bg-gradient-to-b from-slate-950 to-black font-sans overflow-hidden "
+      className="pt-36 w-full h-[200vh] bg-gradient-to-b from-slate-950 to-black font-sans overflow-hidden "
     >
       <div className="grid grid-cols-8 ">
         <div className="col-span-6 flex flex-col gap-36 col-start-2 ">
