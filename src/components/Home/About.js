@@ -20,7 +20,7 @@ export default function About() {
                             <div className="w-full flex flex-col  gap-5 md:grid md:grid-cols-5 md:gap-8">
                             <div className="col-span-2 md:items-end">
                                     <img
-                                        data-aos="fade-left"
+                                        data-aos="fade-right"
                                         src={myImage}
                                         className="opacity-50 bg-center bg-clip-border rounded-full md:w-96 md:h-96 w-80% h-80%"
                                         alt="me"

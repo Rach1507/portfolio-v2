@@ -16,7 +16,7 @@ const Home = () => {
        //  from-black via-[#0f0230] to-black
       //  from-black via-[#0f0230] to-slate-950
       // to-blue-950 from-slate-950
-    >
+      >
 
       <LinkFooter />
       <div className="col-span-5 flex flex-col gap-0 col-start-2">
