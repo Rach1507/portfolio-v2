@@ -48,7 +48,7 @@ export default function Navbar() {
         // className="p-2 rounded-md border-dotted border-2 border-sky-500 bg-transparent"
         >
           <a
-            href="https://drive.google.com/file/d/1TcwlKix6q79MaX9yVeZPwjspjPzZ9w1Q/view?usp=sharing"
+            href="https://drive.google.com/file/d/126EpvFLojuNhDg4aPybtazHFedu-09IK/view?usp=sharing"
             target="_blank" rel="noreferrer"
           >
             Resume
