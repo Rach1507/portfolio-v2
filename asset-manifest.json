@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.323d1d80.css",
-    "main.js": "/portfolio-v2/static/js/main.2f4f0987.js",
-    "static/js/453.0209b404.chunk.js": "/portfolio-v2/static/js/453.0209b404.chunk.js",
-    "static/media/portfolio.png": "/portfolio-v2/static/media/portfolio.d0823556ce78ddab7c76.png",
-    "static/media/me-sm.jpg": "/portfolio-v2/static/media/me-sm.dc0c61e4d6e1cf0b9499.jpg",
-    "static/media/ux-sm.png": "/portfolio-v2/static/media/ux-sm.c61fbf14f5d4c66c13fd.png",
-    "static/media/noun-learning-6493040.svg": "/portfolio-v2/static/media/noun-learning-6493040.889112c7fb96d8a723eb.svg",
-    "static/media/noun-internship-6530862.svg": "/portfolio-v2/static/media/noun-internship-6530862.68d302cc82c935248112.svg",
-    "static/media/noun-hobbies-3683675.svg": "/portfolio-v2/static/media/noun-hobbies-3683675.eeec1c7dd0503a2328c1.svg",
-    "static/media/noun-front-end-5072094.svg": "/portfolio-v2/static/media/noun-front-end-5072094.70b95a5708d5a5f7ffcd.svg",
-    "static/media/noun-segment-6560644.svg": "/portfolio-v2/static/media/noun-segment-6560644.2cb4dd5468c4bb7f874b.svg",
-    "index.html": "/portfolio-v2/index.html",
-    "main.323d1d80.css.map": "/portfolio-v2/static/css/main.323d1d80.css.map",
-    "main.2f4f0987.js.map": "/portfolio-v2/static/js/main.2f4f0987.js.map",
-    "453.0209b404.chunk.js.map": "/portfolio-v2/static/js/453.0209b404.chunk.js.map"
+    "main.css": "/static/css/main.fa8a959b.css",
+    "main.js": "/static/js/main.8a0a2e62.js",
+    "static/js/453.0209b404.chunk.js": "/static/js/453.0209b404.chunk.js",
+    "static/media/portfolio.png": "/static/media/portfolio.d0823556ce78ddab7c76.png",
+    "static/media/me-sm.jpg": "/static/media/me-sm.dc0c61e4d6e1cf0b9499.jpg",
+    "static/media/ux-sm.png": "/static/media/ux-sm.c61fbf14f5d4c66c13fd.png",
+    "static/media/noun-learning-6493040.svg": "/static/media/noun-learning-6493040.889112c7fb96d8a723eb.svg",
+    "static/media/noun-internship-6530862.svg": "/static/media/noun-internship-6530862.68d302cc82c935248112.svg",
+    "static/media/noun-hobbies-3683675.svg": "/static/media/noun-hobbies-3683675.eeec1c7dd0503a2328c1.svg",
+    "static/media/noun-front-end-5072094.svg": "/static/media/noun-front-end-5072094.70b95a5708d5a5f7ffcd.svg",
+    "static/media/noun-segment-6560644.svg": "/static/media/noun-segment-6560644.2cb4dd5468c4bb7f874b.svg",
+    "index.html": "/index.html",
+    "main.fa8a959b.css.map": "/static/css/main.fa8a959b.css.map",
+    "main.8a0a2e62.js.map": "/static/js/main.8a0a2e62.js.map",
+    "453.0209b404.chunk.js.map": "/static/js/453.0209b404.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.323d1d80.css",
-    "static/js/main.2f4f0987.js"
+    "static/css/main.fa8a959b.css",
+    "static/js/main.8a0a2e62.js"
   ]
 }
