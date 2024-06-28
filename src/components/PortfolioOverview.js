@@ -7,7 +7,7 @@ import Work from "./Work";
 import Contact from "./Contact";
 import About from "./Home/About";
 import { useState, useEffect, useRef } from "react";
-import PersonalBranding from "./Home/PersonalBranding";
+// import PersonalBranding from "./Home/PersonalBranding";
 
 export default function PortfolioOverview() {
 
@@ -39,7 +39,7 @@ export default function PortfolioOverview() {
       <About/>
       <Experience />
             { width >= 568 ? <Work /> : <></>}
-            <PersonalBranding/>
+            {/* <PersonalBranding/> */}
       <Projects />
       <Archieve list={oldProjectsData} />
       <Contact />
