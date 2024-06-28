@@ -5,7 +5,7 @@ import { synamediaRoleInfo, otRoleInfo } from "./ExperienceData";
 export default function ExperienceCardView() {
   const [selected, setSelected] = useState("Sy");
   return (
-    <div className="h-[120vh]">
+    <div className="">
       <div className="h-full pl-0 z-[-100]">
         <span
           // ref={experienceRef}

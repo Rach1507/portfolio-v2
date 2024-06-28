@@ -1,10 +1,10 @@
 const LinkFooter = () => {
   return (
-    <div className="">
+    <div className="z-20">
       <div className="fixed left-2 lg:left-14 flex flex-col w-6 justify-end items-center gap-5 md:gap-9 bottom-0">
         <a
           href="https://github.com/Rach1507"
-          className="text-slate-400 h-4 w-4 md:w-9 md:h-9 hover:text-slate-50 hover:animate-bounce"
+          className="text-slate-400 h-6 w-6 md:w-8 md:h-8 hover:text-slate-50 hover:animate-bounce"
           aria-label="GitHub"
           target="_blank"
           rel="noreferrer"
@@ -29,7 +29,7 @@ const LinkFooter = () => {
           href="https://codepen.io/Rach715"
           aria-label="CodePen"
           target="_blank"
-          className="text-slate-400 h-4 w-4 md:w-9 md:h-9  hover:text-slate-50 hover:animate-bounce"
+          className="text-slate-400 h-6 w-6 md:w-8 md:h-8  hover:text-slate-50 hover:animate-bounce"
           rel="noreferrer"
         >
           <svg
@@ -55,7 +55,7 @@ const LinkFooter = () => {
           href="https://leetcode.com/rach_7815/"
           aria-label="Leetcode"
           target="_blank"
-          className="text-slate-400 h-4 w-4  md:w-8 md:h-8 hover:text-slate-50 text-shadow hover:animate-bounce"
+          className="text-slate-400 h-6 w-6  md:w-7 md:h-7 hover:text-slate-50 text-shadow hover:animate-bounce"
           rel="noreferrer"
         >
           <svg
@@ -81,7 +81,7 @@ const LinkFooter = () => {
           href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
           aria-label="Linkedin"
           target="_blank"
-          className="text-slate-400 h-4 w-4  md:w-8 md:h-8  hover:text-slate-50 hover:animate-bounce"
+          className="text-slate-400 h-6 w-6  md:w-7 md:h-7 hover:text-slate-50 hover:animate-bounce"
           rel="noreferrer"
         >
           <svg

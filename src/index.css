@@ -5,11 +5,11 @@
 @layer utilities {
 
   .text-intro-header{
-    font-size: clamp(0.7rem , 0.8rem + 8.6vw , 6.5rem);
+    font-size: clamp(0.8rem , 0.8rem + 9vw , 6.5rem);
   }
 
   .text-experience-header{
-    font-size: clamp(0.5rem , 0.4rem + 2.5vw , 1.25rem);
+    font-size: clamp(0.5rem , 0.4rem + 3vw , 1.25rem);
   }
 
   .opacity-0{
@@ -21,7 +21,7 @@
   }
 
   .text-section-headers{
-    font-size: clamp(0.8rem , 0.4rem + 4.6vw , 2.25rem);
+    font-size: clamp(0.8rem , 0.4rem + 5.2vw , 2.25rem);
   }
 
   .list-image-hobbies{
@@ -44,22 +44,22 @@
   }
 
 .text-navbar{
-   font-size: clamp(0.6rem , 0.3rem + 1vw  , 1.125rem);
+   font-size: clamp(0.8rem , 0.5rem + 0.6vw  , 2rem);
 
   }
   .text-intro-desc{
-     font-size: clamp(0.7rem , 0.4rem + 1.4vw  , 1.25rem);
+     font-size: clamp(0.7rem , 0.3rem + 1vw  , 2rem);
      line-height: clamp(0.3, 2 ,1.75);
   }
 
-  .text-section-desc{
-    font-size: clamp(0.2rem , 0.1rem + 1.0vw  , 1.15rem);
+  .text-section-desc {
+    font-size: clamp(0.7rem , 0.25rem + 0.8vw  , 1rem);
     line-height: clamp(0.4, 2 ,1.75);
  }
 
 
  .text-archieve-desc{
-  font-size: clamp(0.8rem , 0.3rem + 1.2vw  , 1.125rem);
+  font-size: clamp(0.8rem , 0.25rem + 0.8vw  , 1rem);
   line-height: clamp(0.4, 2 ,1.75);
  }
 
@@ -117,42 +117,42 @@
 
 @layer animations {
   .translateSE {
-    transform: translate(250px, 50%);
+    transform: translate(200px, 50%);
   }
   .translateN {
-    transform: translateY(250px);
+    transform: translateY(200px);
   }
   .translateS {
-    transform: translateY(-250px);
+    transform: translateY(-200px);
   }
   .translateSW {
-    transform: translate(-250px, 50%);
+    transform: translate(-200px, 50%);
   }
   .translateNW {
-    transform: translate(-250px, -50%);
+    transform: translate(-200px, -50%);
   }
   .translateNE {
-    transform: translate(250px, -50%);
+    transform: translate(200px, -50%);
   }
 
   .translateSE2 {
-    transform: translate(350px, 25%);
+    transform: translate(300px, 25%);
   }
   .translateSW2 {
-    transform: translate(-4000px, 25%);
+    transform: translate(-400px, 25%);
   }
   .translateNW2 {
-    transform: translate(-350px, -25%);
+    transform: translate(-300px, -25%);
   }
   .translateNE2 {
-    transform: translate(350px, -50%);
+    transform: translate(300px, -50%);
   }
 
   .translateE {
-    transform: translateX(450px);
+    transform: translateX(350px);
   }
   .translateW {
-    transform: translateX(-450px);
+    transform: translateX(-350px);
   }
 }
 

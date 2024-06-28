@@ -50,7 +50,7 @@ export default function Intro() {
             }
             Rachitha B R
           </span>
-          <span className="text-xl text-intro-desc tracking-wide text-slate-300 font-semibold">Hi , Im a <span className="text-sky-300"> Software Developer </span>  , based out of Bangalore with 2 years of
+          <span className="text-xl text-intro-desc tracking-wide text-slate-300 font-semibold">Hi , Im a <span className="text-sky-300"> Software Developer </span>  , based out of Bangalore with 2+ years of
             Engineering Experience . </span>
           <span className="text-xl text-intro-desc  text-slate-300 tracking-wide font-semibold"> Currently working as a <span className="text-sky-300"> Front End Engineer </span>  @ Synamedia </span>
 

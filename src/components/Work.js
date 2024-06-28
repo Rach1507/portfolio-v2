@@ -17,13 +17,13 @@ export default function Work() {
   }, []);
 
   return (
-    <div className="z-10 bg-gradient-to-b to-slate-950 from-black mt-0">
+    <div className="z-35 bg-gradient-to-b to-slate-950 from-black mt-0">
       <div
         ref={ref}
-        className="overflow-hidden grid grid-cols-5 grid-rows-1 justify-center items-center w-full h-screen font-sans"
+        className=" grid grid-cols-5 grid-rows-1 justify-center items-center w-full h-[95vh] font-sans"
       >
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90] justify-center items-center animate-customPulse`}
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80] justify-center items-center animate-customPulse`}
         >
           <div
             className="rounded-full 
@@ -36,7 +36,7 @@ export default function Work() {
           </div>
         </div>
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? `transition-transform duration-700 ease-out translateNW`
               : ``
@@ -68,7 +68,7 @@ export default function Work() {
         </div>
 
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? ` transition-transform duration-700 ease-out translateSE  `
               : ``
@@ -82,7 +82,7 @@ export default function Work() {
         </div>
 
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? `transition-transform duration-700 ease-out translateN `
               : ``
@@ -94,7 +94,7 @@ export default function Work() {
         </div>
 
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? `transition-transform duration-700 ease-out translateS`
               : ``
@@ -107,7 +107,7 @@ export default function Work() {
         </div>
 
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? `transition-transform duration-700 ease-out translateSW `
               : ``
@@ -120,7 +120,7 @@ export default function Work() {
         </div>
 
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? `transition-transform duration-700 ease-out translateNE `
               : ``
@@ -132,7 +132,7 @@ export default function Work() {
         </div>
 
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? `transition-transform duration-700 ease-out translateE `
               : ``
@@ -143,7 +143,7 @@ export default function Work() {
           </div>
         </div>
         <div
-          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[90]  justify-center items-center ${
+          className={`flex col-start-3 row-start-1 rounded-full backdrop-contrast-75  h-1/3 w-full text-center z-[80]  justify-center items-center ${
             inView
               ? `transition-transform duration-700 ease-out translateW`
               : ``
@@ -154,7 +154,7 @@ export default function Work() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 justify-items-center items-center gap-6 text-center pb-10">
+      <div className="row-span-1 col-span-2 row-start-4  grid grid-cols-2 justify-items-center items-center gap-3 text-center pb-10">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="55" height="90">
             <g
@@ -170,7 +170,7 @@ export default function Work() {
           </svg>
         </div>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="85">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="95">
             <g
               fill="none"
               stroke="#fff"
