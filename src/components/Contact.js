@@ -18,7 +18,7 @@ export default function Contact() {
 
         <div className="row-span-3 flex flex-row gap-12 justify-center">
           <a
-            href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
+            href="https://www.linkedin.com/in/rachitha-br/"
             aria-label="Linkedin"
             target="_blank"
             className="text-slate-50 w-10 h-10 m:w-14 m:h-14  animate-pulse"

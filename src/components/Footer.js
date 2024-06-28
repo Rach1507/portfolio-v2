@@ -78,7 +78,7 @@ const LinkFooter = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
+          href="https://www.linkedin.com/in/rachitha-br/"
           aria-label="Linkedin"
           target="_blank"
           className="text-slate-400 h-6 w-6  md:w-7 md:h-7 hover:text-slate-50 hover:animate-bounce"
