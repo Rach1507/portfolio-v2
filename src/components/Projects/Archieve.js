@@ -30,7 +30,7 @@ export default function Archieve({ list }) {
 
 
   return (
-    <div className="grid grid-cols-6 grid-rows-1 w-full pb-12 bg-gradient-to-b to-blue-950 from-black font-sans items-center justify-center overflow-hidden ">
+    <div className=" z-[100] md:z-10 grid grid-cols-6 grid-rows-1 w-full pb-12 bg-gradient-to-b to-blue-950 from-black font-sans items-center justify-center overflow-hidden ">
       <div className="flex flex-col items-center md:ml-14">
         <button
           disabled={page < 0}

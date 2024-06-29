@@ -29,10 +29,10 @@ export default function Experience() {
 
       <div 
       id="experience" 
-        className="grid grid-cols-8 grid-rows-1 w-full bg-gradient-to-b from-slate-950 to-black
+        className="grid grid-cols-12 grid-rows-1 w-full bg-gradient-to-b from-slate-950 to-black
      font-sans z-[100] md:z-10"
       >
-        <div id="experienceContainer" ref={containerRef} className="m-5 col-span-8 md:col-start-2 md:col-span-6">
+        <div id="experienceContainer" ref={containerRef} className="h-[130vh] m-5 col-span-12 md:col-start-2 md:col-span-10">
           {width >= 568 ? <ExperienceCardView /> : <ExperienceCardMobileView/>} 
         </div>
       </div>

@@ -14,13 +14,13 @@ export default function About() {
                     className=" w-full h-full font-sans overflow-hidden "
                 >
                     <div className="grid grid-cols-10">
-                        <div className="col-span-7 flex flex-col gap-16 col-start-2 ">
+                        <div className="col-span-7 flex flex-col gap-8 md:gap-16 col-start-2 ">
                             <div className="text-4xl md:ml-0 text-section-headers font-sans font-semibold bg-clip-text tracking-wide text-transparent bg-gradient-to-l from-slate-500 to-slate-200 col-span-6 flex justify-center md:justify-start"> <div> A little about me ..
                             </div>      </div>
                             <div className="w-full flex flex-col  gap-5 md:grid md:grid-cols-5 md:gap-8">
                             <div className="col-span-2 md:items-end">
                                     <img
-                                        data-aos="fade-left"
+                                        data-aos="fade-right"
                                         src={myImage}
                                         className="opacity-50 bg-center bg-clip-border rounded-full md:w-96 md:h-96 w-80% h-80%"
                                         alt="me"

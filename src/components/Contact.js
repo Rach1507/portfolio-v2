@@ -2,9 +2,9 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="z-[100] w-full bg-gradient-to-b to-black from-blue-950 font-sans"
+      className=" w-full bg-gradient-to-b to-black from-blue-950 font-sans"
     >
-      <div className="m-20 grid grid-rows-5 gap-5 items-center text-center justify-center ">
+      <div className="z-[80] md:z-0 m-20 w-4/5 mx-auto grid grid-rows-5 gap-5 items-center text-center justify-center ">
         <div>
           And yeah , thats it for now :/ , A bunch of exciting projects in the
           pipeline/brain oven :D{" "}
@@ -18,10 +18,10 @@ export default function Contact() {
 
         <div className="row-span-3 flex flex-row gap-12 justify-center">
           <a
-            href="https://www.linkedin.com/in/rachitha-b-r-1442961b8/"
+            href="https://www.linkedin.com/in/rachitha-br/"
             aria-label="Linkedin"
             target="_blank"
-            className="text-slate-50 w-8 h-8 m:w-14 m:h-14  animate-pulse"
+            className="text-slate-50 w-10 h-10 m:w-14 m:h-14  animate-pulse"
             rel="noreferrer"
           >
             <svg
@@ -45,7 +45,7 @@ export default function Contact() {
             href="https://mail.google.com/mail/?view=cm&fs=1&to=rachitha715@gmail.com"
             aria-label="Gmail"
             target="_blank"
-            className="text-slate-50 w-8 h-8 m:w-14 m:h-14  animate-pulse"
+            className="text-slate-50 w-10 h-10 m:w-14 m:h-14  animate-pulse"
             rel="noreferrer"
           >
             <svg
@@ -67,7 +67,7 @@ export default function Contact() {
             href="mailto:rachitha715@gmail.com"
             aria-label="mail"
             target="_blank"
-            className="text-slate-50 w-8 h-8 m:w-14 m:h-14 animate-pulse"
+            className="text-slate-50 w-10 h-10 m:w-14 m:h-14 animate-pulse"
             rel="noreferrer"
           >
             <svg

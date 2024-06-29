@@ -48,12 +48,13 @@ export default function Navbar() {
         // className="p-2 rounded-md border-dotted border-2 border-sky-500 bg-transparent"
         >
           <a
-            href="https://drive.google.com/file/d/1TcwlKix6q79MaX9yVeZPwjspjPzZ9w1Q/view?usp=sharing"
+            href="https://drive.google.com/file/d/1l44N1EYCwS98zFzj2pxUiDlbJRnMbi_L/view?usp=sharing"
             target="_blank" rel="noreferrer"
           >
             Resume
           </a>
         </Button>
+        
       </div>
     </div>
   );

@@ -19,7 +19,7 @@ export function RightProjectCard() {
         />
       </div>
       <div className="col-span-2 md:col-span-1 row-span-2 flex flex-col z-20 items-end gap-10">
-        <div className="font-bold text-lg">UX Designer Portfolio - UpWork (In Progress)</div>
+        <div className="md:pl-8 font-bold text-lg text-right ">UX Designer Portfolio - UpWork <br/> (In Progress)</div>
         <div className=" backdrop-contrast-75 text-slate-50 text-sm font-normal tracking-wide text-right leading-6 p-5 ">
           <ul className="flex flex-col gap-5">
             <li>
@@ -44,12 +44,14 @@ export function RightProjectCard() {
 
         <div className="flex gap-10">
           <a
+            data-tooltip-target = "tooltip-light"
             href="https://www.uxportfolio.manasagopinath.com"
-            aria-label="External Link"
+            aria-label="To be live soon"
             class="external"
-            className="text-sky-300 w-6 h-6"
+            className="text-slate-500 w-6 h-6"
             target="_blank"
             rel="noopener noreferrer"
+            disabled
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,16 +64,17 @@ export function RightProjectCard() {
               stroke-linejoin="round"
               class="feather feather-external-link"
             >
-              <title>External Link</title>
+              <title>To be Live Soon</title>
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
             </svg>
           </a>
 
+
           <a
             href="https://github.com/Rach1507/UX-portfolio"
-            className="text-sky-300 w-6 h-6 hover:text-slate-50"
+            className="text-slate-500 w-6 h-6"
             aria-label="GitHub"
             target="_blank"
             rel="noreferrer"
@@ -87,7 +90,7 @@ export function RightProjectCard() {
               stroke-linejoin="round"
               class="feather feather-github"
             >
-              <title>GitHub</title>
+              <title>To be public soon</title>
               <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
             </svg>
           </a>
@@ -276,6 +279,88 @@ export function LeftProjectCard() {
   );
 }
 
+export function LeftMobileProjectCard() {
+  const techStack = ["ReactJS", "Tailwind", "AceternityUI", "gh-pages"];
+
+  return (
+    <div className="w-full h-1/2 md:h-[20%] grid grid-rows-3 md:grid-rows-0 md:grid-cols-3 z-30">
+            <div className=" col-span-2 md:col-start-1 row-span-1 md:justify-center md:items-start">
+        <img
+          data-aos="fade-left"
+          src={portfolioImage}
+          className="opacity-50 pb-5 w-full contain-content"
+          alt=""
+        />
+      </div>
+      <div className="row-span-2 col-span-2 md:col-span-1 flex flex-col items-start gap-10 ">
+        <div className="font-bold text-lg">Personal Portfolio v2</div>
+        <div className=" backdrop-contrast-75 z-20 text-slate-50 text-sm font-normal tracking-wide text-left leading-6 p-5 break-words">
+          Second iteration of my personal portfolio , Designed and developed by
+          me , built using{" "}
+          <span className="text-sky-500">ReactJS , Tailwind , AceternityUI </span> deployed in
+          Github pages
+        </div>
+        <div className=" text-slate-50 text-sm font-semibold flex gap-10 flex-wrap">
+          {techStack.map((tech) => (
+            <span>{tech}</span>
+          ))}
+        </div>
+
+        <div className="flex gap-10">
+          <a
+            href="https://github.com/Rach1507/portfolio-v2"
+            aria-label="External Link"
+            class="external"
+            className="text-sky-300 w-6 h-6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-external-link"
+            >
+              <title>External Link</title>
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+
+          <a
+            href="https://github.com/Rach1507/portfolio-v2"
+            className="text-sky-300 w-6 h-6 hover:text-slate-50"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-github"
+            >
+              <title>GitHub</title>
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 
 export function NetflixProjectCard() {
   const techStack = ["ReactJS", "Tailwind", "NextJS", "Firebase", "Vercel"];
@@ -353,6 +438,100 @@ export function NetflixProjectCard() {
           className="opacity-50 w-full"
           alt=""
         />
+      </div>
+    </div>
+  );
+}
+
+
+export function RightMobileProjectCard() {
+  const techStack = ["ReactJS", "Tailwind", "AceternityUI", "gh-pages"];
+  return (
+    <div className="w-full h-1/2 md:h-[20%] grid grid-rows-3 md:grid-rows-0 md:grid-cols-3">
+      <div className="md:col-start-1 col-span-2 md:justify-center md:items-start">
+        <img
+          data-aos="fade-right"
+          src={uxImage}
+          className="opacity-50 pb-5 w-full"
+          alt=""
+        />
+      </div>
+      <div className="col-span-2 md:col-span-1 row-span-2 flex flex-col z-20 items-end gap-10">
+        <div className="font-bold text-lg">Personal Portfolio v2</div>
+        <div className=" backdrop-contrast-75 text-slate-50 text-sm font-normal tracking-wide text-right leading-6 p-5 ">
+          <ul className="flex flex-col gap-5">
+            <li>
+            Second iteration of my personal portfolio , Designed and developed by
+          me , built using{" "}
+          <span className="text-sky-500">ReactJS , Tailwind , AceternityUI </span> deployed in
+          Github pages
+            </li>
+          </ul>
+        </div>
+        <div className="text-slate-50 text-sm font-semibold flex gap-10">
+          {techStack.slice(0, 3).map((tech) => (
+            <span>{tech}</span>
+          ))}
+        </div>
+        <div className="text-slate-50 text-sm font-semibold flex gap-10">
+          {techStack.slice(3).map((tech) => (
+            <span>{tech}</span>
+          ))}
+        </div>
+
+        <div className="flex gap-10">
+          <a
+            data-tooltip-target = "tooltip-light"
+            href="https://www.uxportfolio.manasagopinath.com"
+            aria-label="Rachitha's portfolio"
+            class="external"
+            className="text-sky-300 w-6 h-6"
+            target="_blank"
+            rel="noopener noreferrer"
+            disabled
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-external-link"
+            >
+              <title>Live Link</title>
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+
+
+          <a
+            href="https://github.com/Rach1507/UX-portfolio"
+            className="text-sky-300 w-6 h-6 hover:text-slate-50"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-github"
+            >
+              <title>Github</title>
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   );
