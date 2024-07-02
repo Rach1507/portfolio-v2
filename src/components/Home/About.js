@@ -36,14 +36,14 @@ export default function About() {
                                     <ul className="list-image-code"><li>Before graduation , I
                                         worked at OneTrust Privacy as a Full Stack Developer Intern for 4
                                         months.</li>
-                                        
                                     </ul>
-                                    <ul className=" list-image-learning"><li>Currently diving into the dynamic world of the Front End
+                                    <ul className="list-image-learning"><li>Currently diving into the dynamic world of the Front End
                                         ecosystem, seeking more exposure , concurrently I'm immersing myself
                                         in reading and understanding, aiming to strengthen the fundamentals
                                         for a overall solid foundation.</li>
                                         
                                     </ul>
+                                    <ul className="list-image-learning">Im an action-oriented , proactive developer, tackling tasks head-on, resolving blockers, improving processes ,questioning and striving for better performance.</ul>
                                     <ul className="list-image-hobbies"> <li>I really really enjoy singing my heart out , my cult workouts , mid day reads / 20 min anime/tv breaks , chess games with my niece , playing silly with my  3 yo nephew , friday evening swims and the dopamine boost of crossing
                                         off mundane tasks from my todo :)))</li>
                                         

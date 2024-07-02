@@ -1,7 +1,7 @@
 export const oldProjectsData = [
   {
     name: "In-Garden",
-    link: "https://github.com/Rach1507/Syna-CodeGen",
+    link: "https://github.com/Rach1507/inGarden",
     info: "An online plant store website built using Angular , Spring Boot , MySQL , Unit tested using JUnit",
     techStack: ["Angular", "Spring Boot", "JUnit", "MS SQL"],
   },
@@ -62,7 +62,7 @@ export const oldProjectsData = [
   },
   {
     name: "React tic tac toe",
-    link: "https://github.com/Rach1507/Syna-CodeGen",
+    link: "https://github.com/Rach1507/react-tic-tac-toe",
     info: "Basic tic tac toe game built while learning basics of ReactJS",
     techStack: ["ReactJS"],
   },
